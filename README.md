@@ -4,11 +4,11 @@ This is a summary page of sample consulting and work projects that I have worked
 
 ## Links
 
-Survival Analysis
+[Post-Myocardial Survival Analysis](https://petepham.github.io/Survival%20Analysis/index.html)
 
 Wildfire Clustering Analysis
 
-[Kinsman Crossing Grouping Analysis](https://petepham.github.io/Kinsman%20Crossing/index.html)
+[Kinsman Crossing Exploratory Analysis](https://petepham.github.io/Kinsman%20Crossing/index.html)
 
 GED/ABE Demographic Race Analysis
 
