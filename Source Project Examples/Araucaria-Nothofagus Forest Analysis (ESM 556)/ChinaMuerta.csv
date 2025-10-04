@@ -1,0 +1,1078 @@
+site,n.plot,cod.sev,north,west,slope,aspect,elev.m,tran.size,transect,species,sp.name,origen,veg.cov,cov.50N,cov.50E,cov.50S,cov.50W,cov.140N,cov.140E,cov.140S,cov.140W
+CM,1,H,-3875700,-7141727,8,270,1612,large,north,aca.pin,Acaena pinnatifida,native,3,59,59,45,55,56,60,45,54
+CM,1,H,-3875700,-7141727,8,270,1612,large,north,epi.tet,Epilobium tetragonum,exotic,5,59,59,45,55,56,60,45,54
+CM,1,H,-3875700,-7141727,8,270,1612,large,north,ber.mic,Berberis microphylla,native,4,59,59,45,55,56,60,45,54
+CM,1,H,-3875700,-7141727,8,270,1612,large,north,leu.the,Leucheria thermarum,native,3,59,59,45,55,56,60,45,54
+CM,1,H,-3875700,-7141727,8,270,1612,large,north,fwd,fine woody debris,NA,85,59,59,45,55,56,60,45,54
+CM,1,H,-3875700,-7141727,8,270,1612,large,east,bare.gr,bare ground,NA,20,50,42,57,30,44,48,53,26
+CM,1,H,-3875700,-7141727,8,270,1612,large,east,fwd,fine woody debris,NA,80,50,42,57,30,44,48,53,26
+CM,1,H,-3875700,-7141727,8,270,1612,large,south,ber.mic,Berberis microphylla,native,10,34,58,60,47,40,62,43,36
+CM,1,H,-3875700,-7141727,8,270,1612,large,south,epi.tet,Epilobium tetragonum,exotic,5,34,58,60,47,40,62,43,36
+CM,1,H,-3875700,-7141727,8,270,1612,large,south,bare.gr,bare ground,NA,20,34,58,60,47,40,62,43,36
+CM,1,H,-3875700,-7141727,8,270,1612,large,south,fwd,fine woody debris,NA,65,34,58,60,47,40,62,43,36
+CM,1,H,-3875700,-7141727,8,270,1612,large,west,epi.tet,Epilobium tetragonum,exotic,5,43,48,46,33,50,48,51,34
+CM,1,H,-3875700,-7141727,8,270,1612,large,west,fwd,fine woody debris,NA,90,43,48,46,33,50,48,51,34
+CM,1,H,-3875700,-7141727,8,270,1612,large,west,bare.gr,bare ground,NA,5,43,48,46,33,50,48,51,34
+CM,2,H,-3878995,-7149815,18,348,1237,large,north,epi.tet,Epilobium tetragonum,exotic,30,39,46,22,31,39,37,22,35
+CM,2,H,-3878995,-7149815,18,348,1237,large,north,fwd,fine woody debris,NA,30,39,46,22,31,39,37,22,35
+CM,2,H,-3878995,-7149815,18,348,1237,large,north,bare.gr,bare ground,NA,40,39,46,22,31,39,37,22,35
+CM,2,H,-3878995,-7149815,18,348,1237,large,east,epi.tet,Epilobium tetragonum,exotic,20,29,33,23,20,31,35,23,17
+CM,2,H,-3878995,-7149815,18,348,1237,large,east,air.car,Aira caryophyllea,exotic,5,29,33,23,20,31,35,23,17
+CM,2,H,-3878995,-7149815,18,348,1237,large,east,cir.vul,Cirsium vulgare,exotic,1,29,33,23,20,31,35,23,17
+CM,2,H,-3878995,-7149815,18,348,1237,large,east,fwd,fine woody debris,NA,54,29,33,23,20,31,35,23,17
+CM,2,H,-3878995,-7149815,18,348,1237,large,east,bare.gr,bare ground,NA,20,29,33,23,20,31,35,23,17
+CM,2,H,-3878995,-7149815,18,348,1237,large,south,cir.vul,Cirsium vulgare,exotic,2,34,33,15,28,31,36,14,15
+CM,2,H,-3878995,-7149815,18,348,1237,large,south,gau.poe,Gaultheria poeppigii,native,5,34,33,15,28,31,36,14,15
+CM,2,H,-3878995,-7149815,18,348,1237,large,south,ber.mic,Berberis microphylla,native,60,34,33,15,28,31,36,14,15
+CM,2,H,-3878995,-7149815,18,348,1237,large,south,epi.tet,Epilobium tetragonum,exotic,3,34,33,15,28,31,36,14,15
+CM,2,H,-3878995,-7149815,18,348,1237,large,south,fwd,fine woody debris,NA,7,34,33,15,28,31,36,14,15
+CM,2,H,-3878995,-7149815,18,348,1237,large,south,bare.gr,bare ground,NA,23,34,33,15,28,31,36,14,15
+CM,2,H,-3878995,-7149815,18,348,1237,large,west,epi.tet,Epilobium tetragonum,exotic,5,33,35,8,13,34,33,7,10
+CM,2,H,-3878995,-7149815,18,348,1237,large,west,gau.poe,Gaultheria poeppigii,native,2,33,35,8,13,34,33,7,10
+CM,2,H,-3878995,-7149815,18,348,1237,large,west,bare.gr,bare ground,NA,93,33,35,8,13,34,33,7,10
+CM,3,H,-3878995,-7152215,22,10,1553,large,north,none,NA,NA,0,35,33,38,30,34,33,33,27
+CM,3,H,-3878995,-7152215,22,10,1553,large,east,none,NA,NA,0,40,39,25,39,36,33,22,35
+CM,3,H,-3878995,-7152215,22,10,1553,large,south,none,NA,NA,0,42,35,31,36,40,33,26,35
+CM,3,H,-3878995,-7152215,22,10,1553,large,west,none,NA,NA,0,41,40,32,40,41,40,36,33
+CM,4,H,-3876085,-7151300,28,306,1660,large,north,epi.tet,Epilobium tetragonum,exotic,2,35,30,30,27,33,32,28,32
+CM,4,H,-3876085,-7151300,28,306,1660,large,north,chu.sp,Chusquea sp,native,3,35,30,30,27,33,32,28,32
+CM,4,H,-3876085,-7151300,28,306,1660,large,north,cwd,coarse woody debris,NA,90,35,30,30,27,33,32,28,32
+CM,4,H,-3876085,-7151300,28,306,1660,large,north,bare.gr,bare ground,NA,5,35,30,30,27,33,32,28,32
+CM,4,H,-3876085,-7151300,28,306,1660,large,east,chu.sp,Chusquea sp,native,5,26,24,20,25,26,25,22,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,east,vic.nig,Vicia nigricans,native,2,26,24,20,25,26,25,22,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,east,myo.obl,Myoschilos oblongum,native,3,26,24,20,25,26,25,22,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,east,bare.gr,bare ground,NA,65,26,24,20,25,26,25,22,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,east,fwd,fine woody debris,NA,25,26,24,20,25,26,25,22,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,south,epi.tet,Epilobium tetragonum,exotic,2,22,25,21,23,24,22,20,21
+CM,4,H,-3876085,-7151300,28,306,1660,large,south,ber.mic,Berberis microphylla,native,3,22,25,21,23,24,22,20,21
+CM,4,H,-3876085,-7151300,28,306,1660,large,south,bare.gr,bare ground,NA,95,22,25,21,23,24,22,20,21
+CM,4,H,-3876085,-7151300,28,306,1660,large,west,epi.tet,Epilobium tetragonum,exotic,2,30,26,23,23,32,27,23,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,west,chu.sp,Chusquea sp,native,10,30,26,23,23,32,27,23,24
+CM,4,H,-3876085,-7151300,28,306,1660,large,west,cwd,coarse woody debris,NA,88,30,26,23,23,32,27,23,24
+CM,5,H,-3878977,-7149959,14,348,1248,large,north,sch.pat,Schinus patagonicus,native,80,58,38,85,77,23,35,60,46
+CM,5,H,-3878977,-7149959,14,348,1248,large,north,rib.tri,Ribes trilobum,native,15,58,38,85,77,23,35,60,46
+CM,5,H,-3878977,-7149959,14,348,1248,large,north,may.dis,Maytenus disticha,native,3,58,38,85,77,23,35,60,46
+CM,5,H,-3878977,-7149959,14,348,1248,large,north,dio.bra,Dioscorea brachybotrya,native,2,58,38,85,77,23,35,60,46
+CM,5,H,-3878977,-7149959,14,348,1248,large,east,cir.vul,Cirsium vulgare,exotic,2,24,26,27,27,28,30,33,27
+CM,5,H,-3878977,-7149959,14,348,1248,large,east,epi.tet,Epilobium tetragonum,exotic,10,24,26,27,27,28,30,33,27
+CM,5,H,-3878977,-7149959,14,348,1248,large,east,fwd,fine woody debris,NA,80,24,26,27,27,28,30,33,27
+CM,5,H,-3878977,-7149959,14,348,1248,large,south,cir.vul,Cirsium vulgare,exotic,25,36,33,35,38,35,27,36,40
+CM,5,H,-3878977,-7149959,14,348,1248,large,south,epi.tet,Epilobium tetragonum,exotic,18,36,33,35,38,35,27,36,40
+CM,5,H,-3878977,-7149959,14,348,1248,large,south,lac.ser,Lactuca serriola,exotic,2,36,33,35,38,35,27,36,40
+CM,5,H,-3878977,-7149959,14,348,1248,large,south,bare.gr,bare ground,NA,15,36,33,35,38,35,27,36,40
+CM,5,H,-3878977,-7149959,14,348,1248,large,south,fwd,fine woody debris,NA,40,36,33,35,38,35,27,36,40
+CM,5,H,-3878977,-7149959,14,348,1248,large,west,cir.vul,Cirsium vulgare,exotic,22,29,31,26,35,25,30,19,32
+CM,5,H,-3878977,-7149959,14,348,1248,large,west,may.dis,Maytenus disticha,native,3,29,31,26,35,25,30,19,32
+CM,5,H,-3878977,-7149959,14,348,1248,large,west,fwd,fine woody debris,NA,75,29,31,26,35,25,30,19,32
+CM,6,H,-3875183,-7150810,26,28,1641,large,north,als.aur,Alstroemeria aurea,native,30,38,77,79,38,36,61,76,42
+CM,6,H,-3875183,-7150810,26,28,1641,large,north,cwd,coarse woody debris,NA,70,38,77,79,38,36,61,76,42
+CM,6,H,-3875183,-7150810,26,28,1641,large,east,epi.tet,Epilobium tetragonum,exotic,35,76,46,78,68,74,45,72,71
+CM,6,H,-3875183,-7150810,26,28,1641,large,east,cwd,coarse woody debris,NA,50,76,46,78,68,74,45,72,71
+CM,6,H,-3875183,-7150810,26,28,1641,large,east,chu.sp,Chusquea sp,native,15,76,46,78,68,74,45,72,71
+CM,6,H,-3875183,-7150810,26,28,1641,large,south,chu.sp,Chusquea sp,native,5,30,51,80,74,36,38,78,74
+CM,6,H,-3875183,-7150810,26,28,1641,large,south,cwd,coarse woody debris,NA,95,30,51,80,74,36,38,78,74
+CM,6,H,-3875183,-7150810,26,28,1641,large,west,als.aur,Alstroemeria aurea,native,20,41,62,77,50,26,60,79,38
+CM,6,H,-3875183,-7150810,26,28,1641,large,west,vic.nig,Vicia nigricans,native,5,41,62,77,50,26,60,79,38
+CM,6,H,-3875183,-7150810,26,28,1641,large,west,ber.mic,Berberis microphylla,native,15,41,62,77,50,26,60,79,38
+CM,6,H,-3875183,-7150810,26,28,1641,large,west,cwd,coarse woody debris,NA,25,41,62,77,50,26,60,79,38
+CM,6,H,-3875183,-7150810,26,28,1641,large,west,fwd,fine woody debris,NA,35,41,62,77,50,26,60,79,38
+CM,7,H,-3875303,-7150534,32,30,1649,large,north,none,NA,NA,0,20,43,35,17,14,38,37,14
+CM,7,H,-3875303,-7150534,32,30,1649,large,east,none,NA,NA,0,26,37,44,37,27,35,43,38
+CM,7,H,-3875303,-7150534,32,30,1649,large,south,none,NA,NA,0,32,35,36,45,33,40,34,44
+CM,7,H,-3875303,-7150534,32,30,1649,large,west,none,NA,NA,0,40,37,42,28,33,37,42,29
+CM,8,H,-3874124,-7151911,22,40,1612,large,north,none,NA,NA,0,34,42,44,44,35,42,43,43
+CM,8,H,-3874124,-7151911,22,40,1612,large,east,none,NA,NA,0,34,36,43,40,34,34,43,39
+CM,8,H,-3874124,-7151911,22,40,1612,large,south,none,NA,NA,0,34,41,41,33,40,40,45,33
+CM,8,H,-3874124,-7151911,22,40,1612,large,west,none,NA,NA,0,35,42,42,35,35,44,44,41
+CM,9,H,-3877619,-7151301,10,120,1506,large,north,chu.sp,Chusquea sp,native,65,71,34,34,42,45,34,33,40
+CM,9,H,-3877619,-7151301,10,120,1506,large,north,epi.tet,Epilobium tetragonum,exotic,5,71,34,34,42,45,34,33,40
+CM,9,H,-3877619,-7151301,10,120,1506,large,north,fwd,fine woody debris,NA,30,71,34,34,42,45,34,33,40
+CM,9,H,-3877619,-7151301,10,120,1506,large,east,chu.sp,Chusquea sp,native,50,65,69,36,41,34,26,30,38
+CM,9,H,-3877619,-7151301,10,120,1506,large,east,epi.tet,Epilobium tetragonum,exotic,3,65,69,36,41,34,26,30,38
+CM,9,H,-3877619,-7151301,10,120,1506,large,east,fwd,fine woody debris,NA,47,65,69,36,41,34,26,30,38
+CM,9,H,-3877619,-7151301,10,120,1506,large,south,epi.tet,Epilobium tetragonum,exotic,2,44,31,21,25,47,33,23,25
+CM,9,H,-3877619,-7151301,10,120,1506,large,south,lac.ser,Lactuca serriola,exotic,3,44,31,21,25,47,33,23,25
+CM,9,H,-3877619,-7151301,10,120,1506,large,south,bare.gr,bare ground,NA,85,44,31,21,25,47,33,23,25
+CM,9,H,-3877619,-7151301,10,120,1506,large,south,fwd,fine woody debris,NA,10,44,31,21,25,47,33,23,25
+CM,9,H,-3877619,-7151301,10,120,1506,large,west,chu.sp,Chusquea sp,native,35,33,34,18,65,36,35,21,44
+CM,9,H,-3877619,-7151301,10,120,1506,large,west,epi.tet,Epilobium tetragonum,exotic,2,33,34,18,65,36,35,21,44
+CM,9,H,-3877619,-7151301,10,120,1506,large,west,vic.nig,Vicia nigricans,native,3,33,34,18,65,36,35,21,44
+CM,9,H,-3877619,-7151301,10,120,1506,large,west,cwd,coarse woody debris,NA,65,33,34,18,65,36,35,21,44
+CM,10,H,-3877482,-7153393,34,140,1397,large,north,rib.mag,Ribes magellanicum,native,2,49,13,32,39,43,19,36,33
+CM,10,H,-3877482,-7153393,34,140,1397,large,north,vic.nig,Vicia nigricans,native,23,49,13,32,39,43,19,36,33
+CM,10,H,-3877482,-7153393,34,140,1397,large,north,cir.vul,Cirsium vulgare,exotic,2,49,13,32,39,43,19,36,33
+CM,10,H,-3877482,-7153393,34,140,1397,large,north,lac.ser,Lactuca serriola,exotic,5,49,13,32,39,43,19,36,33
+CM,10,H,-3877482,-7153393,34,140,1397,large,north,bare.gr,bare ground,NA,33,49,13,32,39,43,19,36,33
+CM,10,H,-3877482,-7153393,34,140,1397,large,north,fwd,fine woody debris,NA,35,49,13,32,39,43,19,36,33
+CM,10,H,-3877482,-7153393,34,140,1397,large,east,als.aur,Alstroemeria aurea,native,33,57,19,28,32,31,17,34,34
+CM,10,H,-3877482,-7153393,34,140,1397,large,east,vic.nig,Vicia nigricans,native,8,57,19,28,32,31,17,34,34
+CM,10,H,-3877482,-7153393,34,140,1397,large,east,epi.tet,Epilobium tetragonum,exotic,2,57,19,28,32,31,17,34,34
+CM,10,H,-3877482,-7153393,34,140,1397,large,east,lac.ser,Lactuca serriola,exotic,7,57,19,28,32,31,17,34,34
+CM,10,H,-3877482,-7153393,34,140,1397,large,east,cwd,coarse woody debris,NA,45,57,19,28,32,31,17,34,34
+CM,10,H,-3877482,-7153393,34,140,1397,large,east,bare.gr,bare ground,NA,5,57,19,28,32,31,17,34,34
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,epi.tet,Epilobium tetragonum,exotic,7,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,cir.vul,Cirsium vulgare,exotic,7,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,sen.vul,Senecio vulgaris,exotic,2,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,val.lax,Valeriana laxiflora,native,4,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,lac.ser,Lactuca serriola,exotic,10,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,cwd,coarse woody debris,NA,65,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,south,bare.gr,bare ground,NA,5,37,30,25,37,36,27,27,38
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,chu.sp,Chusquea sp,native,30,66,40,34,51,54,28,34,47
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,epi.tet,Epilobium tetragonum,exotic,2,66,40,34,51,54,28,34,47
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,lac.ser,Lactuca serriola,exotic,2,66,40,34,51,54,28,34,47
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,cir.vul,Cirsium vulgare,exotic,2,66,40,34,51,54,28,34,47
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,sen.vul,Senecio vulgaris,exotic,1,66,40,34,51,54,28,34,47
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,bare.gr,bare ground,NA,53,66,40,34,51,54,28,34,47
+CM,10,H,-3877482,-7153393,34,140,1397,large,west,fwd,fine woody debris,NA,10,66,40,34,51,54,28,34,47
+CM,11,H,-3876204,-7149578,12,248,1708,large,north,cwd,coarse woody debris,NA,65,34,41,36,29,20,39,43,29
+CM,11,H,-3876204,-7149578,12,248,1708,large,north,bare.gr,bare ground,NA,35,34,41,36,29,20,39,43,29
+CM,11,H,-3876204,-7149578,12,248,1708,large,east,fwd,fine woody debris,NA,60,13,36,28,32,11,36,33,25
+CM,11,H,-3876204,-7149578,12,248,1708,large,east,bare.gr,bare ground,NA,40,13,36,28,32,11,36,33,25
+CM,11,H,-3876204,-7149578,12,248,1708,large,south,cwd,coarse woody debris,NA,75,30,33,13,26,23,40,14,25
+CM,11,H,-3876204,-7149578,12,248,1708,large,south,bare.gr,bare ground,NA,25,30,33,13,26,23,40,14,25
+CM,11,H,-3876204,-7149578,12,248,1708,large,west,cwd,coarse woody debris,NA,80,28,28,26,12,29,41,28,15
+CM,11,H,-3876204,-7149578,12,248,1708,large,west,bare.gr,bare ground,NA,20,28,28,26,12,29,41,28,15
+CM,12,H,-3878871,-7149341,22,160,1250,large,north,car.tho,Carduus thoermeri ,exotic,6,19,19,13,16,22,15,16,18
+CM,12,H,-3878871,-7149341,22,160,1250,large,north,cir.vul,Cirsium vulgare,exotic,2,19,19,13,16,22,15,16,18
+CM,12,H,-3878871,-7149341,22,160,1250,large,north,sen.vul,Senecio vulgaris,exotic,2,19,19,13,16,22,15,16,18
+CM,12,H,-3878871,-7149341,22,160,1250,large,north,epi.tet,Epilobium tetragonum,exotic,30,19,19,13,16,22,15,16,18
+CM,12,H,-3878871,-7149341,22,160,1250,large,north,bare.gr,bare ground,NA,35,19,19,13,16,22,15,16,18
+CM,12,H,-3878871,-7149341,22,160,1250,large,north,fwd,fine woody debris,NA,25,19,19,13,16,22,15,16,18
+CM,12,H,-3878871,-7149341,22,160,1250,large,east,epi.tet,Epilobium tetragonum,exotic,3,78,21,20,31,19,16,26,29
+CM,12,H,-3878871,-7149341,22,160,1250,large,east,cwd,coarse woody debris,NA,97,78,21,20,31,19,16,26,29
+CM,12,H,-3878871,-7149341,22,160,1250,large,south,lac.ser,Lactuca serriola,exotic,4,35,33,71,85,36,24,18,27
+CM,12,H,-3878871,-7149341,22,160,1250,large,south,chu.sp,Chusquea sp,native,43,35,33,71,85,36,24,18,27
+CM,12,H,-3878871,-7149341,22,160,1250,large,south,epi.tet,Epilobium tetragonum,exotic,15,35,33,71,85,36,24,18,27
+CM,12,H,-3878871,-7149341,22,160,1250,large,south,bare.gr,bare ground,NA,25,35,33,71,85,36,24,18,27
+CM,12,H,-3878871,-7149341,22,160,1250,large,south,fwd,fine woody debris,NA,13,35,33,71,85,36,24,18,27
+CM,12,H,-3878871,-7149341,22,160,1250,large,west,epi.tet,Epilobium tetragonum,exotic,40,29,21,32,72,27,24,25,30
+CM,12,H,-3878871,-7149341,22,160,1250,large,west,cwd,coarse woody debris,NA,55,29,21,32,72,27,24,25,30
+CM,12,H,-3878871,-7149341,22,160,1250,large,west,bare.gr,bare ground,NA,5,29,21,32,72,27,24,25,30
+CM,13,H,-3876764,-7149808,16,168,1553,large,north,cwd,coarse woody debris,NA,65,26,25,23,25,33,28,24,22
+CM,13,H,-3876764,-7149808,16,168,1553,large,north,bare.gr,bare ground,NA,35,26,25,23,25,33,28,24,22
+CM,13,H,-3876764,-7149808,16,168,1553,large,east,fwd,fine woody debris,NA,85,33,35,24,28,31,37,21,26
+CM,13,H,-3876764,-7149808,16,168,1553,large,east,bare.gr,bare ground,NA,15,33,35,24,28,31,37,21,26
+CM,13,H,-3876764,-7149808,16,168,1553,large,south,car.tho,Carduus thoermeri ,exotic,3,31,24,20,27,36,26,22,25
+CM,13,H,-3876764,-7149808,16,168,1553,large,south,cwd,coarse woody debris,NA,77,31,24,20,27,36,26,22,25
+CM,13,H,-3876764,-7149808,16,168,1553,large,south,bare.gr,bare ground,NA,20,31,24,20,27,36,26,22,25
+CM,13,H,-3876764,-7149808,16,168,1553,large,west,cwd,coarse woody debris,NA,73,26,24,14,24,27,26,17,19
+CM,13,H,-3876764,-7149808,16,168,1553,large,west,bare.gr,bare ground,NA,25,26,24,14,24,27,26,17,19
+CM,13,H,-3876764,-7149808,16,168,1553,large,west,may.dis,Maytenus disticha,native,2,26,24,14,24,27,26,17,19
+CM,14,H,-3877780,-7151312,16,166,1423,large,north,epi.tet,Epilobium tetragonum,exotic,70,33,30,35,47,38,27,32,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,north,rib.mag,Ribes magellanicum,native,3,33,30,35,47,38,27,32,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,north,lac.ser,Lactuca serriola,exotic,2,33,30,35,47,38,27,32,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,north,fwd,fine woody debris,NA,25,33,30,35,47,38,27,32,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,east,epi.tet,Epilobium tetragonum,exotic,40,36,24,43,44,40,30,37,51
+CM,14,H,-3877780,-7151312,16,166,1423,large,east,fwd,fine woody debris,NA,60,36,24,43,44,40,30,37,51
+CM,14,H,-3877780,-7151312,16,166,1423,large,south,epi.tet,Epilobium tetragonum,exotic,2,48,39,37,47,66,42,40,41
+CM,14,H,-3877780,-7151312,16,166,1423,large,south,lac.ser,Lactuca serriola,exotic,3,48,39,37,47,66,42,40,41
+CM,14,H,-3877780,-7151312,16,166,1423,large,south,fwd,fine woody debris,NA,95,48,39,37,47,66,42,40,41
+CM,14,H,-3877780,-7151312,16,166,1423,large,west,chu.sp,Chusquea sp,native,60,38,45,73,51,41,37,31,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,west,epi.tet,Epilobium tetragonum,exotic,4,38,45,73,51,41,37,31,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,west,als.aur,Alstroemeria aurea,native,1,38,45,73,51,41,37,31,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,west,bare.gr,bare ground,NA,5,38,45,73,51,41,37,31,46
+CM,14,H,-3877780,-7151312,16,166,1423,large,west,cwd,coarse woody debris,NA,30,38,45,73,51,41,37,31,46
+CM,15,H,-3877041,-7149840,10,172,1490,large,north,cwd,coarse woody debris,NA,77,32,32,27,16,31,32,25,27
+CM,15,H,-3877041,-7149840,10,172,1490,large,north,bare.gr,bare ground,NA,23,32,32,27,16,31,32,25,27
+CM,15,H,-3877041,-7149840,10,172,1490,large,east,lac.ser,Lactuca serriola,exotic,3,24,21,19,14,19,14,18,17
+CM,15,H,-3877041,-7149840,10,172,1490,large,east,cwd,coarse woody debris,NA,62,24,21,19,14,19,14,18,17
+CM,15,H,-3877041,-7149840,10,172,1490,large,east,bare.gr,bare ground,NA,35,24,21,19,14,19,14,18,17
+CM,15,H,-3877041,-7149840,10,172,1490,large,south,ber.mic,Berberis microphylla,native,5,25,22,18,15,28,20,15,14
+CM,15,H,-3877041,-7149840,10,172,1490,large,south,bare.gr,bare ground,NA,80,25,22,18,15,28,20,15,14
+CM,15,H,-3877041,-7149840,10,172,1490,large,south,fwd,fine woody debris,NA,15,25,22,18,15,28,20,15,14
+CM,15,H,-3877041,-7149840,10,172,1490,large,west,lac.ser,Lactuca serriola,exotic,10,26,32,21,23,25,30,21,23
+CM,15,H,-3877041,-7149840,10,172,1490,large,west,cwd,coarse woody debris,NA,85,26,32,21,23,25,30,21,23
+CM,15,H,-3877041,-7149840,10,172,1490,large,west,bare.gr,bare ground,NA,5,26,32,21,23,25,30,21,23
+CM,16,H,-3876134,-7149415,26,270,1745,large,north,sen.1,Senecio 1,native,20,35,41,37,32,39,45,41,28
+CM,16,H,-3876134,-7149415,26,270,1745,large,north,fwd,fine woody debris,NA,80,35,41,37,32,39,45,41,28
+CM,16,H,-3876134,-7149415,26,270,1745,large,east,lac.ser,Lactuca serriola,exotic,1,35,47,38,30,36,47,36,29
+CM,16,H,-3876134,-7149415,26,270,1745,large,east,fwd,fine woody debris,NA,99,35,47,38,30,36,47,36,29
+CM,16,H,-3876134,-7149415,26,270,1745,large,south,fwd,fine woody debris,NA,55,29,43,42,29,31,50,47,28
+CM,16,H,-3876134,-7149415,26,270,1745,large,south,bare.gr,bare ground,NA,45,29,43,42,29,31,50,47,28
+CM,16,H,-3876134,-7149415,26,270,1745,large,west,fwd,fine woody debris,NA,100,35,39,46,30,32,46,45,24
+CM,17,H,-3876023,-7176023,28,312,1616,large,north,lac.ser,Lactuca serriola,exotic,3,53,61,59,40,48,52,57,38
+CM,17,H,-3876023,-7176023,28,312,1616,large,north,cwd,coarse woody debris,NA,45,53,61,59,40,48,52,57,38
+CM,17,H,-3876023,-7176023,28,312,1616,large,north,fwd,fine woody debris,NA,15,53,61,59,40,48,52,57,38
+CM,17,H,-3876023,-7176023,28,312,1616,large,north,bare.gr,bare ground,NA,37,53,61,59,40,48,52,57,38
+CM,17,H,-3876023,-7176023,28,312,1616,large,east,ber.tri,Berberis trigona,native,5,12,51,73,28,6,44,53,28
+CM,17,H,-3876023,-7176023,28,312,1616,large,east,chu.sp,Chusquea sp,native,2,12,51,73,28,6,44,53,28
+CM,17,H,-3876023,-7176023,28,312,1616,large,east,cwd,coarse woody debris,NA,70,12,51,73,28,6,44,53,28
+CM,17,H,-3876023,-7176023,28,312,1616,large,east,bare.gr,bare ground,NA,23,12,51,73,28,6,44,53,28
+CM,17,H,-3876023,-7176023,28,312,1616,large,south,chu.sp,Chusquea sp,native,15,42,57,60,36,42,51,47,34
+CM,17,H,-3876023,-7176023,28,312,1616,large,south,gau.poe,Gaultheria poeppigii,native,20,42,57,60,36,42,51,47,34
+CM,17,H,-3876023,-7176023,28,312,1616,large,south,vic.nig,Vicia nigricans,native,1,42,57,60,36,42,51,47,34
+CM,17,H,-3876023,-7176023,28,312,1616,large,south,als.aur,Alstroemeria aurea,native,1,42,57,60,36,42,51,47,34
+CM,17,H,-3876023,-7176023,28,312,1616,large,south,fwd,fine woody debris,NA,40,42,57,60,36,42,51,47,34
+CM,17,H,-3876023,-7176023,28,312,1616,large,south,bare.gr,bare ground,NA,23,42,57,60,36,42,51,47,34
+CM,17,H,-3876023,-7176023,28,312,1616,large,west,epi.tet,Epilobium tetragonum,exotic,20,36,50,53,43,31,56,50,43
+CM,17,H,-3876023,-7176023,28,312,1616,large,west,als.aur,Alstroemeria aurea,native,1,36,50,53,43,31,56,50,43
+CM,17,H,-3876023,-7176023,28,312,1616,large,west,chu.sp,Chusquea sp,native,10,36,50,53,43,31,56,50,43
+CM,17,H,-3876023,-7176023,28,312,1616,large,west,bare.gr,bare ground,NA,54,36,50,53,43,31,56,50,43
+CM,17,H,-3876023,-7176023,28,312,1616,large,west,fwd,fine woody debris,NA,15,36,50,53,43,31,56,50,43
+CM,18,H,-3876017,-7151873,14,314,1609,large,north,chu.sp,Chusquea sp,native,30,44,51,68,40,67,54,63,51
+CM,18,H,-3876017,-7151873,14,314,1609,large,north,epi.tet,Epilobium tetragonum,exotic,2,44,51,68,40,67,54,63,51
+CM,18,H,-3876017,-7151873,14,314,1609,large,north,ber.mic,Berberis microphylla,native,2,44,51,68,40,67,54,63,51
+CM,18,H,-3876017,-7151873,14,314,1609,large,north,fwd,fine woody debris,NA,66,44,51,68,40,67,54,63,51
+CM,18,H,-3876017,-7151873,14,314,1609,large,east,epi.tet,Epilobium tetragonum,exotic,5,18,64,48,56,22,64,46,60
+CM,18,H,-3876017,-7151873,14,314,1609,large,east,bare.gr,bare ground,NA,65,18,64,48,56,22,64,46,60
+CM,18,H,-3876017,-7151873,14,314,1609,large,east,cwd,coarse woody debris,NA,30,18,64,48,56,22,64,46,60
+CM,18,H,-3876017,-7151873,14,314,1609,large,south,epi.tet,Epilobium tetragonum,exotic,5,55,58,64,48,54,58,72,54
+CM,18,H,-3876017,-7151873,14,314,1609,large,south,chu.sp,Chusquea sp,native,70,55,58,64,48,54,58,72,54
+CM,18,H,-3876017,-7151873,14,314,1609,large,south,bare.gr,bare ground,NA,20,55,58,64,48,54,58,72,54
+CM,18,H,-3876017,-7151873,14,314,1609,large,south,fwd,fine woody debris,NA,5,55,58,64,48,54,58,72,54
+CM,18,H,-3876017,-7151873,14,314,1609,large,west,rum.ace,Rumex acetosella,exotic,90,22,46,39,36,20,56,48,33
+CM,18,H,-3876017,-7151873,14,314,1609,large,west,bare.gr,bare ground,NA,10,22,46,39,36,20,56,48,33
+CM,19,H,-3877658,-7153436,22,170,1310,large,north,epi.tet,Epilobium tetragonum,exotic,33,27,24,35,38,28,20,33,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,north,cir.vul,Cirsium vulgare,exotic,1,27,24,35,38,28,20,33,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,north,sen.vul,Senecio vulgaris,exotic,1,27,24,35,38,28,20,33,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,north,fwd,fine woody debris,NA,45,27,24,35,38,28,20,33,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,north,bare.gr,bare ground,NA,20,27,24,35,38,28,20,33,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,east,rib.mag,Ribes magellanicum,native,1,32,47,29,41,34,31,35,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,east,epi.tet,Epilobium tetragonum,exotic,23,32,47,29,41,34,31,35,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,east,chu.sp,Chusquea sp,native,31,32,47,29,41,34,31,35,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,east,bare.gr,bare ground,NA,5,32,47,29,41,34,31,35,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,east,fwd,fine woody debris,NA,40,32,47,29,41,34,31,35,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,south,cir.vul,Cirsium vulgare,exotic,5,77,64,53,77,78,55,45,74
+CM,19,H,-3877658,-7153436,22,170,1310,large,south,epi.tet,Epilobium tetragonum,exotic,3,77,64,53,77,78,55,45,74
+CM,19,H,-3877658,-7153436,22,170,1310,large,south,vic.nig,Vicia nigricans,native,5,77,64,53,77,78,55,45,74
+CM,19,H,-3877658,-7153436,22,170,1310,large,south,chu.sp,Chusquea sp,native,32,77,64,53,77,78,55,45,74
+CM,19,H,-3877658,-7153436,22,170,1310,large,south,bare.gr,bare ground,NA,35,77,64,53,77,78,55,45,74
+CM,19,H,-3877658,-7153436,22,170,1310,large,south,fwd,fine woody debris,NA,20,77,64,53,77,78,55,45,74
+CM,19,H,-3877658,-7153436,22,170,1310,large,west,rum.ace,Rumex acetosella,exotic,43,46,31,30,37,42,31,28,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,west,cir.vul,Cirsium vulgare,exotic,2,46,31,30,37,42,31,28,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,west,cer.arv,Cerastium arvense,exotic,5,46,31,30,37,42,31,28,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,west,fwd,fine woody debris,NA,25,46,31,30,37,42,31,28,37
+CM,19,H,-3877658,-7153436,22,170,1310,large,west,bare.gr,bare ground,NA,25,46,31,30,37,42,31,28,37
+CM,20,H,-3877499,-7151805,12,134,1577,large,north,epi.tet,Epilobium tetragonum,exotic,1,15,4,25,39,19,6,23,38
+CM,20,H,-3877499,-7151805,12,134,1577,large,north,cwd,coarse woody debris,NA,65,15,4,25,39,19,6,23,38
+CM,20,H,-3877499,-7151805,12,134,1577,large,north,bare.gr,bare ground,NA,34,15,4,25,39,19,6,23,38
+CM,20,H,-3877499,-7151805,12,134,1577,large,east,lac.ser,Lactuca serriola,exotic,1,21,22,26,33,22,21,26,30
+CM,20,H,-3877499,-7151805,12,134,1577,large,east,epi.tet,Epilobium tetragonum,exotic,10,21,22,26,33,22,21,26,30
+CM,20,H,-3877499,-7151805,12,134,1577,large,east,fwd,fine woody debris,NA,75,21,22,26,33,22,21,26,30
+CM,20,H,-3877499,-7151805,12,134,1577,large,east,bare.gr,bare ground,NA,14,21,22,26,33,22,21,26,30
+CM,20,H,-3877499,-7151805,12,134,1577,large,south,epi.tet,Epilobium tetragonum,exotic,25,19,29,25,23,22,22,28,18
+CM,20,H,-3877499,-7151805,12,134,1577,large,south,cir.vul,Cirsium vulgare,exotic,3,19,29,25,23,22,22,28,18
+CM,20,H,-3877499,-7151805,12,134,1577,large,south,lac.ser,Lactuca serriola,exotic,2,19,29,25,23,22,22,28,18
+CM,20,H,-3877499,-7151805,12,134,1577,large,south,fwd,fine woody debris,NA,70,19,29,25,23,22,22,28,18
+CM,20,H,-3877499,-7151805,12,134,1577,large,west,ros.rub,Rosa rubiginosa,exotic,20,71,25,24,42,38,27,30,38
+CM,20,H,-3877499,-7151805,12,134,1577,large,west,rum.ace,Rumex acetosella,exotic,75,71,25,24,42,38,27,30,38
+CM,20,H,-3877499,-7151805,12,134,1577,large,west,als.aur,Alstroemeria aurea,native,5,71,25,24,42,38,27,30,38
+CM,21,L,-3878737,-7151513,26,330,1192,large,north,rum.ace,Rumex acetosella,exotic,40,80,79,90,88,77,84,89,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,north,rib.tri,Ribes trilobum,native,7,80,79,90,88,77,84,89,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,north,als.aur,Alstroemeria aurea,native,3,80,79,90,88,77,84,89,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,north,vio.rei,Viola reichei,native,2,80,79,90,88,77,84,89,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,north,bare.gr,bare ground,NA,50,80,79,90,88,77,84,89,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,east,rum.ace,Rumex acetosella,exotic,27,87,85,82,86,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,east,osm.chi,Osmorhiza chilensis,native,3,87,85,82,86,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,east,vio.rei,Viola reichei,native,2,87,85,82,86,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,east,cwd,coarse woody debris,NA,45,87,85,82,86,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,east,bare.gr,bare ground,NA,25,87,85,82,86,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,south,agr.cap,Agrostis capillaris,exotic,45,73,82,82,87,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,south,tri.rep,Trifolium repens,exotic,35,73,82,82,87,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,south,rum.ace,Rumex acetosella,exotic,20,73,82,82,87,70,81,80,86
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,tri.rep,Trifolium repens,exotic,8,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,rum.ace,Rumex acetosella,exotic,23,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,sol.val,Solanum valdiviense,native,5,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,ber.mic,Berberis microphylla,native,5,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,gal.hyp,Galium hypocarpium,native,2,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,als.aur,Alstroemeria aurea,native,2,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,agr.cap,Agrostis capillaris,exotic,15,91,89,89,89,91,89,88,88
+CM,21,L,-3878737,-7151513,26,330,1192,large,west,bare.gr,bare ground,NA,40,91,89,89,89,91,89,88,88
+CM,22,L,-3874083,-7152133,30,330,1631,large,north,none,NA,NA,0,89,94,95,88,88,90,91,87
+CM,22,L,-3874083,-7152133,30,330,1631,large,east,none,NA,NA,0,88,88,93,92,86,88,91,91
+CM,22,L,-3874083,-7152133,30,330,1631,large,south,none,NA,NA,0,90,94,90,90,92,93,89,90
+CM,22,L,-3874083,-7152133,30,330,1631,large,west,none,NA,NA,0,82,88,85,81,85,91,88,88
+CM,23,L,-3875451,-7151730,42,250,1672,medium,north,sen.pil,Senecio pilquensis,native,20,43,60,48,50,50,62,51,41
+CM,23,L,-3875451,-7151730,42,250,1672,medium,north,ade.chi,Adenocaulon chilense,native,5,43,60,48,50,50,62,51,41
+CM,23,L,-3875451,-7151730,42,250,1672,medium,north,chu.sp,Chusquea sp,native,30,43,60,48,50,50,62,51,41
+CM,23,L,-3875451,-7151730,42,250,1672,medium,north,ble.pen,Blechnum penna-marina,native,5,43,60,48,50,50,62,51,41
+CM,23,L,-3875451,-7151730,42,250,1672,medium,north,aza.alp,Azara alpina,native,40,43,60,48,50,50,62,51,41
+CM,23,L,-3875451,-7151730,42,250,1672,medium,east,bare.gr,bare ground,NA,65,52,72,52,66,53,70,51,60
+CM,23,L,-3875451,-7151730,42,250,1672,medium,east,fwd,fine woody debris,NA,35,52,72,52,66,53,70,51,60
+CM,23,L,-3875451,-7151730,42,250,1672,medium,south,epi.tet,Epilobium tetragonum,exotic,5,46,72,35,43,36,60,24,43
+CM,23,L,-3875451,-7151730,42,250,1672,medium,south,chu.sp,Chusquea sp,native,20,46,72,35,43,36,60,24,43
+CM,23,L,-3875451,-7151730,42,250,1672,medium,south,fwd,fine woody debris,NA,55,46,72,35,43,36,60,24,43
+CM,23,L,-3875451,-7151730,42,250,1672,medium,south,bare.gr,bare ground,NA,20,46,72,35,43,36,60,24,43
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,may.dis,Maytenus disticha,native,25,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,rib.den,Ribes densiflorum,native,5,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,ber.ser,Berberis serratodentata,native,10,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,ble.pen,Blechnum penna-marina,native,2,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,chu.sp,Chusquea sp,native,5,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,not.pum,Nothofagus pumilio,native,25,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,sen.pil,Senecio pilquensis,native,3,78,85,80,67,74,76,69,64
+CM,23,L,-3875451,-7151730,42,250,1672,medium,west,bare.gr,bare ground,NA,25,78,85,80,67,74,76,69,64
+CM,24,L,-3877059,-7152348,10,208,1533,medium,north,may.dis,Maytenus disticha,native,37,89,87,79,67,77,86,75,53
+CM,24,L,-3877059,-7152348,10,208,1533,medium,north,chu.sp,Chusquea sp,native,28,89,87,79,67,77,86,75,53
+CM,24,L,-3877059,-7152348,10,208,1533,medium,north,ber.ser,Berberis serratodentata,native,10,89,87,79,67,77,86,75,53
+CM,24,L,-3877059,-7152348,10,208,1533,medium,north,rib.den,Ribes densiflorum,native,5,89,87,79,67,77,86,75,53
+CM,24,L,-3877059,-7152348,10,208,1533,medium,north,ber.mic,Berberis microphylla,native,3,89,87,79,67,77,86,75,53
+CM,24,L,-3877059,-7152348,10,208,1533,medium,north,bare.gr,bare ground,NA,17,89,87,79,67,77,86,75,53
+CM,24,L,-3877059,-7152348,10,208,1533,medium,east,cwd,coarse woody debris,NA,70,88,76,86,79,84,79,85,78
+CM,24,L,-3877059,-7152348,10,208,1533,medium,east,bare.gr,bare ground,NA,30,88,76,86,79,84,79,85,78
+CM,24,L,-3877059,-7152348,10,208,1533,medium,south,not.pum,Nothofagus pumilio,native,1,78,72,74,84,77,73,73,82
+CM,24,L,-3877059,-7152348,10,208,1533,medium,south,cwd,coarse woody debris,NA,75,78,72,74,84,77,73,73,82
+CM,24,L,-3877059,-7152348,10,208,1533,medium,south,bare.gr,bare ground,NA,24,78,72,74,84,77,73,73,82
+CM,24,L,-3877059,-7152348,10,208,1533,medium,west,rib.den,Ribes densiflorum,native,5,94,90,80,82,92,90,79,81
+CM,24,L,-3877059,-7152348,10,208,1533,medium,west,may.dis,Maytenus disticha,native,9,94,90,80,82,92,90,79,81
+CM,24,L,-3877059,-7152348,10,208,1533,medium,west,chu.sp,Chusquea sp,native,50,94,90,80,82,92,90,79,81
+CM,24,L,-3877059,-7152348,10,208,1533,medium,west,ber.mic,Berberis microphylla,native,1,94,90,80,82,92,90,79,81
+CM,24,L,-3877059,-7152348,10,208,1533,medium,west,bare.gr,bare ground,NA,35,94,90,80,82,92,90,79,81
+CM,25,L,-3878596,-7150114,10,276,1238,medium,north,dri.and,Drimys andina,native,40,88,91,85,92,88,88,81,89
+CM,25,L,-3878596,-7150114,10,276,1238,medium,north,rib.mag,Ribes magellanicum,native,18,88,91,85,92,88,88,81,89
+CM,25,L,-3878596,-7150114,10,276,1238,medium,north,chu.sp,Chusquea sp,native,30,88,91,85,92,88,88,81,89
+CM,25,L,-3878596,-7150114,10,276,1238,medium,north,may.dis,Maytenus disticha,native,2,88,91,85,92,88,88,81,89
+CM,25,L,-3878596,-7150114,10,276,1238,medium,north,ber.ser,Berberis serratodentata,native,5,88,91,85,92,88,88,81,89
+CM,25,L,-3878596,-7150114,10,276,1238,medium,north,bare.gr,bare ground,NA,5,88,91,85,92,88,88,81,89
+CM,25,L,-3878596,-7150114,10,276,1238,medium,east,dri.and,Drimys andina,native,85,91,91,79,87,90,89,76,87
+CM,25,L,-3878596,-7150114,10,276,1238,medium,east,chu.sp,Chusquea sp,native,8,91,91,79,87,90,89,76,87
+CM,25,L,-3878596,-7150114,10,276,1238,medium,east,bare.gr,bare ground,NA,7,91,91,79,87,90,89,76,87
+CM,25,L,-3878596,-7150114,10,276,1238,medium,south,rib.mag,Ribes magellanicum,native,15,91,83,79,79,90,79,79,78
+CM,25,L,-3878596,-7150114,10,276,1238,medium,south,cir.vul,Cirsium vulgare,exotic,2,91,83,79,79,90,79,79,78
+CM,25,L,-3878596,-7150114,10,276,1238,medium,south,not.dom,Nothofagus dombeyi,native,2,91,83,79,79,90,79,79,78
+CM,25,L,-3878596,-7150114,10,276,1238,medium,south,epi.sp,Epilobium sp,native,1,91,83,79,79,90,79,79,78
+CM,25,L,-3878596,-7150114,10,276,1238,medium,south,bare.gr,bare ground,NA,55,91,83,79,79,90,79,79,78
+CM,25,L,-3878596,-7150114,10,276,1238,medium,south,fwd,fine woody debris,NA,25,91,83,79,79,90,79,79,78
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,rib.mag,Ribes magellanicum,native,20,93,87,88,83,90,87,88,77
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,cir.vul,Cirsium vulgare,exotic,2,93,87,88,83,90,87,88,77
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,not.dom,Nothofagus dombeyi,native,1,93,87,88,83,90,87,88,77
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,son.asp,Sonchus asper,exotic,2,93,87,88,83,90,87,88,77
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,chu.sp,Chusquea sp,native,15,93,87,88,83,90,87,88,77
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,bare.gr,bare ground,NA,23,93,87,88,83,90,87,88,77
+CM,25,L,-3878596,-7150114,10,276,1238,medium,west,fwd,fine woody debris,NA,37,93,87,88,83,90,87,88,77
+CM,26,L,-3875471,-7149994,36,58,1608,large,north,als.aur,Alstroemeria aurea,native,25,91,93,94,91,87,93,93,90
+CM,26,L,-3875471,-7149994,36,58,1608,large,north,rib.mag,Ribes magellanicum,native,5,91,93,94,91,87,93,93,90
+CM,26,L,-3875471,-7149994,36,58,1608,large,north,chu.sp,Chusquea sp,native,30,91,93,94,91,87,93,93,90
+CM,26,L,-3875471,-7149994,36,58,1608,large,north,aca.ova,Acaena ovalifolia,native,5,91,93,94,91,87,93,93,90
+CM,26,L,-3875471,-7149994,36,58,1608,large,north,cwd,coarse woody debris,NA,35,91,93,94,91,87,93,93,90
+CM,26,L,-3875471,-7149994,36,58,1608,large,east,fwd,fine woody debris,NA,30,32,36,80,83,30,42,81,83
+CM,26,L,-3875471,-7149994,36,58,1608,large,east,bare.gr,bare ground,NA,25,32,36,80,83,30,42,81,83
+CM,26,L,-3875471,-7149994,36,58,1608,large,east,cwd,coarse woody debris,NA,45,32,36,80,83,30,42,81,83
+CM,26,L,-3875471,-7149994,36,58,1608,large,south,cwd,coarse woody debris,NA,90,71,80,91,78,68,81,90,80
+CM,26,L,-3875471,-7149994,36,58,1608,large,south,bare.gr,bare ground,NA,10,71,80,91,78,68,81,90,80
+CM,26,L,-3875471,-7149994,36,58,1608,large,west,als.aur,Alstroemeria aurea,native,20,73,76,88,86,80,72,86,82
+CM,26,L,-3875471,-7149994,36,58,1608,large,west,osm.chi,Osmorhiza chilensis,native,5,73,76,88,86,80,72,86,82
+CM,26,L,-3875471,-7149994,36,58,1608,large,west,rib.mag,Ribes magellanicum,native,5,73,76,88,86,80,72,86,82
+CM,26,L,-3875471,-7149994,36,58,1608,large,west,cwd,coarse woody debris,NA,55,73,76,88,86,80,72,86,82
+CM,26,L,-3875471,-7149994,36,58,1608,large,west,bare.gr,bare ground,NA,15,73,76,88,86,80,72,86,82
+CM,27,L,-3875958,-7150704,26,330,1680,medium,north,als.aur,Alstroemeria aurea,native,15,82,88,85,76,80,87,85,72
+CM,27,L,-3875958,-7150704,26,330,1680,medium,north,vic.nig,Vicia nigricans,native,15,82,88,85,76,80,87,85,72
+CM,27,L,-3875958,-7150704,26,330,1680,medium,north,bare.gr,bare ground,NA,60,82,88,85,76,80,87,85,72
+CM,27,L,-3875958,-7150704,26,330,1680,medium,north,cwd,coarse woody debris,NA,10,82,88,85,76,80,87,85,72
+CM,27,L,-3875958,-7150704,26,330,1680,medium,east,chu.sp,Chusquea sp,native,20,61,80,83,86,54,78,82,82
+CM,27,L,-3875958,-7150704,26,330,1680,medium,east,bare.gr,bare ground,NA,75,61,80,83,86,54,78,82,82
+CM,27,L,-3875958,-7150704,26,330,1680,medium,east,cwd,coarse woody debris,NA,5,61,80,83,86,54,78,82,82
+CM,27,L,-3875958,-7150704,26,330,1680,medium,south,vic.nig,Vicia nigricans,native,15,80,79,81,72,81,78,82,71
+CM,27,L,-3875958,-7150704,26,330,1680,medium,south,als.aur,Alstroemeria aurea,native,5,80,79,81,72,81,78,82,71
+CM,27,L,-3875958,-7150704,26,330,1680,medium,south,bare.gr,bare ground,NA,80,80,79,81,72,81,78,82,71
+CM,27,L,-3875958,-7150704,26,330,1680,medium,west,als.aur,Alstroemeria aurea,native,30,86,87,87,85,85,84,87,86
+CM,27,L,-3875958,-7150704,26,330,1680,medium,west,bare.gr,bare ground,NA,60,86,87,87,85,85,84,87,86
+CM,27,L,-3875958,-7150704,26,330,1680,medium,west,cwd,coarse woody debris,NA,10,86,87,87,85,85,84,87,86
+CM,28,L,-3878025,-7151699,28,164,1266,medium,north,lac.ser,Lactuca serriola,exotic,5,61,48,31,42,57,53,28,40
+CM,28,L,-3878025,-7151699,28,164,1266,medium,north,vic.nig,Vicia nigricans,native,10,61,48,31,42,57,53,28,40
+CM,28,L,-3878025,-7151699,28,164,1266,medium,north,als.aur,Alstroemeria aurea,native,25,61,48,31,42,57,53,28,40
+CM,28,L,-3878025,-7151699,28,164,1266,medium,north,chu.sp,Chusquea sp,native,35,61,48,31,42,57,53,28,40
+CM,28,L,-3878025,-7151699,28,164,1266,medium,north,bare.gr,bare ground,NA,25,61,48,31,42,57,53,28,40
+CM,28,L,-3878025,-7151699,28,164,1266,medium,east,epi.tet,Epilobium tetragonum,exotic,60,57,49,33,42,56,44,34,39
+CM,28,L,-3878025,-7151699,28,164,1266,medium,east,chu.sp,Chusquea sp,native,10,57,49,33,42,56,44,34,39
+CM,28,L,-3878025,-7151699,28,164,1266,medium,east,cir.vul,Cirsium vulgare,exotic,2,57,49,33,42,56,44,34,39
+CM,28,L,-3878025,-7151699,28,164,1266,medium,east,rib.mag,Ribes magellanicum,native,2,57,49,33,42,56,44,34,39
+CM,28,L,-3878025,-7151699,28,164,1266,medium,east,bare.gr,bare ground,NA,26,57,49,33,42,56,44,34,39
+CM,28,L,-3878025,-7151699,28,164,1266,medium,south,chu.sp,Chusquea sp,native,50,77,54,36,50,58,47,40,43
+CM,28,L,-3878025,-7151699,28,164,1266,medium,south,als.aur,Alstroemeria aurea,native,43,77,54,36,50,58,47,40,43
+CM,28,L,-3878025,-7151699,28,164,1266,medium,south,cir.vul,Cirsium vulgare,exotic,2,77,54,36,50,58,47,40,43
+CM,28,L,-3878025,-7151699,28,164,1266,medium,south,lac.ser,Lactuca serriola,exotic,3,77,54,36,50,58,47,40,43
+CM,28,L,-3878025,-7151699,28,164,1266,medium,south,epi.tet,Epilobium tetragonum,exotic,2,77,54,36,50,58,47,40,43
+CM,28,L,-3878025,-7151699,28,164,1266,medium,west,not.alp,Nothofagus alpina,native,25,63,46,58,61,61,40,52,56
+CM,28,L,-3878025,-7151699,28,164,1266,medium,west,als.aur,Alstroemeria aurea,native,10,63,46,58,61,61,40,52,56
+CM,28,L,-3878025,-7151699,28,164,1266,medium,west,chu.sp,Chusquea sp,native,35,63,46,58,61,61,40,52,56
+CM,28,L,-3878025,-7151699,28,164,1266,medium,west,bare.gr,bare ground,NA,30,63,46,58,61,61,40,52,56
+CM,29,L,-3875788,-7150172,22,94,1724,large,north,rib.den,Ribes densiflorum,native,5,79,83,86,89,79,77,81,88
+CM,29,L,-3875788,-7150172,22,94,1724,large,north,als.aur,Alstroemeria aurea,native,5,79,83,86,89,79,77,81,88
+CM,29,L,-3875788,-7150172,22,94,1724,large,north,not.pum,Nothofagus pumilio,native,15,79,83,86,89,79,77,81,88
+CM,29,L,-3875788,-7150172,22,94,1724,large,north,cwd,coarse woody debris,NA,75,79,83,86,89,79,77,81,88
+CM,29,L,-3875788,-7150172,22,94,1724,large,east,per.pre,Perezia prenanthoides,native,2,71,71,86,89,66,70,79,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,east,vic.nig,Vicia nigricans,native,15,71,71,86,89,66,70,79,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,east,rib.mag,Ribes magellanicum,native,5,71,71,86,89,66,70,79,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,east,may.dis,Maytenus disticha,native,3,71,71,86,89,66,70,79,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,east,cwd,coarse woody debris,NA,35,71,71,86,89,66,70,79,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,east,bare.gr,bare ground,NA,40,71,71,86,89,66,70,79,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,south,may.dis,Maytenus disticha,native,2,89,82,83,89,85,75,86,89
+CM,29,L,-3875788,-7150172,22,94,1724,large,south,fwd,fine woody debris,NA,30,89,82,83,89,85,75,86,89
+CM,29,L,-3875788,-7150172,22,94,1724,large,south,cwd,coarse woody debris,NA,23,89,82,83,89,85,75,86,89
+CM,29,L,-3875788,-7150172,22,94,1724,large,south,bare.gr,bare ground,NA,45,89,82,83,89,85,75,86,89
+CM,29,L,-3875788,-7150172,22,94,1724,large,west,als.aur,Alstroemeria aurea,native,10,69,76,84,84,63,81,73,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,west,ber.mic,Berberis microphylla,native,5,69,76,84,84,63,81,73,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,west,per.pre,Perezia prenanthoides,native,1,69,76,84,84,63,81,73,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,west,cwd,coarse woody debris,NA,25,69,76,84,84,63,81,73,87
+CM,29,L,-3875788,-7150172,22,94,1724,large,west,bare.gr,bare ground,NA,59,69,76,84,84,63,81,73,87
+CM,30,L,-3875088,-7151072,22,48,1673,medium,north,sen.1,Senecio 1,native,10,90,88,89,86,89,90,86,83
+CM,30,L,-3875088,-7151072,22,48,1673,medium,north,aca.ova,Acaena ovalifolia,native,78,90,88,89,86,89,90,86,83
+CM,30,L,-3875088,-7151072,22,48,1673,medium,north,als.aur,Alstroemeria aurea,native,5,90,88,89,86,89,90,86,83
+CM,30,L,-3875088,-7151072,22,48,1673,medium,north,rib.mag,Ribes magellanicum,native,5,90,88,89,86,89,90,86,83
+CM,30,L,-3875088,-7151072,22,48,1673,medium,north,not.pum,Nothofagus pumilio,native,2,90,88,89,86,89,90,86,83
+CM,30,L,-3875088,-7151072,22,48,1673,medium,east,aca.ova,Acaena ovalifolia,native,48,89,52,84,80,88,53,72,75
+CM,30,L,-3875088,-7151072,22,48,1673,medium,east,rib.mag,Ribes magellanicum,native,5,89,52,84,80,88,53,72,75
+CM,30,L,-3875088,-7151072,22,48,1673,medium,east,may.dis,Maytenus disticha,native,20,89,52,84,80,88,53,72,75
+CM,30,L,-3875088,-7151072,22,48,1673,medium,east,als.aur,Alstroemeria aurea,native,15,89,52,84,80,88,53,72,75
+CM,30,L,-3875088,-7151072,22,48,1673,medium,east,sen.1,Senecio 1,native,10,89,52,84,80,88,53,72,75
+CM,30,L,-3875088,-7151072,22,48,1673,medium,east,vic.nig,Vicia nigricans,native,2,89,52,84,80,88,53,72,75
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,als.aur,Alstroemeria aurea,native,10,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,rib.mag,Ribes magellanicum,native,15,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,sen.pil,Senecio pilquensis,native,5,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,sen.1,Senecio 1,native,10,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,aca.ova,Acaena ovalifolia,native,25,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,vic.nig,Vicia nigricans,native,5,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,south,bare.gr,bare ground,NA,30,86,52,66,74,86,51,63,84
+CM,30,L,-3875088,-7151072,22,48,1673,medium,west,not.pum,Nothofagus pumilio,native,1,73,78,72,82,68,80,70,79
+CM,30,L,-3875088,-7151072,22,48,1673,medium,west,sen.1,Senecio 1,native,1,73,78,72,82,68,80,70,79
+CM,30,L,-3875088,-7151072,22,48,1673,medium,west,epi.tet,Epilobium tetragonum,exotic,1,73,78,72,82,68,80,70,79
+CM,30,L,-3875088,-7151072,22,48,1673,medium,west,per.pre,Perezia prenanthoides,native,1,73,78,72,82,68,80,70,79
+CM,30,L,-3875088,-7151072,22,48,1673,medium,west,cwd,coarse woody debris,NA,96,73,78,72,82,68,80,70,79
+CM,31,L,-3875868,-7150033,12,152,1661,medium,north,may.dis,Maytenus disticha,native,23,81,84,84,72,78,83,84,66
+CM,31,L,-3875868,-7150033,12,152,1661,medium,north,ade.chi,Adenocaulon chilense,native,7,81,84,84,72,78,83,84,66
+CM,31,L,-3875868,-7150033,12,152,1661,medium,north,cwd,coarse woody debris,NA,30,81,84,84,72,78,83,84,66
+CM,31,L,-3875868,-7150033,12,152,1661,medium,north,bare.gr,bare ground,NA,40,81,84,84,72,78,83,84,66
+CM,31,L,-3875868,-7150033,12,152,1661,medium,east,bare.gr,bare ground,NA,98,74,74,76,72,72,72,72,74
+CM,31,L,-3875868,-7150033,12,152,1661,medium,east,fwd,fine woody debris,NA,2,74,74,76,72,72,72,72,74
+CM,31,L,-3875868,-7150033,12,152,1661,medium,south,rib.mag,Ribes magellanicum,native,3,75,75,78,74,70,69,74,75
+CM,31,L,-3875868,-7150033,12,152,1661,medium,south,per.pre,Perezia prenanthoides,native,3,75,75,78,74,70,69,74,75
+CM,31,L,-3875868,-7150033,12,152,1661,medium,south,not.pum,Nothofagus pumilio,native,4,75,75,78,74,70,69,74,75
+CM,31,L,-3875868,-7150033,12,152,1661,medium,south,fwd,fine woody debris,NA,40,75,75,78,74,70,69,74,75
+CM,31,L,-3875868,-7150033,12,152,1661,medium,south,bare.gr,bare ground,NA,50,75,75,78,74,70,69,74,75
+CM,31,L,-3875868,-7150033,12,152,1661,medium,west,per.pre,Perezia prenanthoides,native,2,77,77,69,69,73,80,73,71
+CM,31,L,-3875868,-7150033,12,152,1661,medium,west,cwd,coarse woody debris,NA,75,77,77,69,69,73,80,73,71
+CM,31,L,-3875868,-7150033,12,152,1661,medium,west,bare.gr,bare ground,NA,23,77,77,69,69,73,80,73,71
+CM,32,L,-3876896,-7152412,20,180,1561,medium,north,osm.chi,Osmorhiza chilensis,native,27,88,78,75,66,89,79,71,65
+CM,32,L,-3876896,-7152412,20,180,1561,medium,north,als.aur,Alstroemeria aurea,native,45,88,78,75,66,89,79,71,65
+CM,32,L,-3876896,-7152412,20,180,1561,medium,north,aca.pin,Acaena pinnatifida,native,3,88,78,75,66,89,79,71,65
+CM,32,L,-3876896,-7152412,20,180,1561,medium,north,bare.gr,bare ground,NA,25,88,78,75,66,89,79,71,65
+CM,32,L,-3876896,-7152412,20,180,1561,medium,east,als.aur,Alstroemeria aurea,native,4,90,91,83,83,88,90,79,80
+CM,32,L,-3876896,-7152412,20,180,1561,medium,east,osm.chi,Osmorhiza chilensis,native,1,90,91,83,83,88,90,79,80
+CM,32,L,-3876896,-7152412,20,180,1561,medium,east,bare.gr,bare ground,NA,95,90,91,83,83,88,90,79,80
+CM,32,L,-3876896,-7152412,20,180,1561,medium,south,ber.mic,Berberis microphylla,native,1,89,88,76,82,88,87,72,81
+CM,32,L,-3876896,-7152412,20,180,1561,medium,south,fwd,fine woody debris,NA,94,89,88,76,82,88,87,72,81
+CM,32,L,-3876896,-7152412,20,180,1561,medium,south,bare.gr,bare ground,NA,5,89,88,76,82,88,87,72,81
+CM,32,L,-3876896,-7152412,20,180,1561,medium,west,als.aur,Alstroemeria aurea,native,65,84,86,88,80,80,86,87,79
+CM,32,L,-3876896,-7152412,20,180,1561,medium,west,vic.nig,Vicia nigricans,native,1,84,86,88,80,80,86,87,79
+CM,32,L,-3876896,-7152412,20,180,1561,medium,west,vio.rei,Viola reichei,native,2,84,86,88,80,80,86,87,79
+CM,32,L,-3876896,-7152412,20,180,1561,medium,west,osm.chi,Osmorhiza chilensis,native,2,84,86,88,80,80,86,87,79
+CM,32,L,-3876896,-7152412,20,180,1561,medium,west,fwd,fine woody debris,NA,20,84,86,88,80,80,86,87,79
+CM,32,L,-3876896,-7152412,20,180,1561,medium,west,bare.gr,bare ground,NA,10,84,86,88,80,80,86,87,79
+CM,33,L,-3876562,-7152034,40,308,1664,large,north,chu.sp,Chusquea sp,native,33,62,73,72,60,52,60,71,55
+CM,33,L,-3876562,-7152034,40,308,1664,large,north,als.aur,Alstroemeria aurea,native,2,62,73,72,60,52,60,71,55
+CM,33,L,-3876562,-7152034,40,308,1664,large,north,fwd,fine woody debris,NA,65,62,73,72,60,52,60,71,55
+CM,33,L,-3876562,-7152034,40,308,1664,large,east,als.aur,Alstroemeria aurea,native,15,45,65,51,45,52,66,60,48
+CM,33,L,-3876562,-7152034,40,308,1664,large,east,bare.gr,bare ground,NA,85,45,65,51,45,52,66,60,48
+CM,33,L,-3876562,-7152034,40,308,1664,large,south,gau.poe,Gaultheria poeppigii,native,2,75,68,79,62,67,61,70,53
+CM,33,L,-3876562,-7152034,40,308,1664,large,south,vic.nig,Vicia nigricans,native,8,75,68,79,62,67,61,70,53
+CM,33,L,-3876562,-7152034,40,308,1664,large,south,ara.ara,Araucaria araucana,native,35,75,68,79,62,67,61,70,53
+CM,33,L,-3876562,-7152034,40,308,1664,large,south,chu.sp,Chusquea sp,native,25,75,68,79,62,67,61,70,53
+CM,33,L,-3876562,-7152034,40,308,1664,large,south,als.aur,Alstroemeria aurea,native,5,75,68,79,62,67,61,70,53
+CM,33,L,-3876562,-7152034,40,308,1664,large,south,bare.gr,bare ground,NA,25,75,68,79,62,67,61,70,53
+CM,33,L,-3876562,-7152034,40,308,1664,large,west,chu.sp,Chusquea sp,native,80,59,63,80,82,53,41,60,76
+CM,33,L,-3876562,-7152034,40,308,1664,large,west,als.aur,Alstroemeria aurea,native,5,59,63,80,82,53,41,60,76
+CM,33,L,-3876562,-7152034,40,308,1664,large,west,bare.gr,bare ground,NA,15,59,63,80,82,53,41,60,76
+CM,34,L,-3877769,-7153627,28,156,1231,small,north,not.dom,Nothofagus dombeyi,native,1,87,92,91,82,83,90,90,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,north,als.aur,Alstroemeria aurea,native,2,87,92,91,82,83,90,90,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,north,not.alp,Nothofagus alpina,native,2,87,92,91,82,83,90,90,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,north,val.lax,Valeriana laxiflora,native,2,87,92,91,82,83,90,90,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,north,cwd,coarse woody debris,NA,63,87,92,91,82,83,90,90,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,north,bare.gr,bare ground,NA,30,87,92,91,82,83,90,90,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,east,chu.sp,Chusquea sp,native,52,93,82,89,91,89,79,90,89
+CM,34,L,-3877769,-7153627,28,156,1231,small,east,not.alp,Nothofagus alpina,native,1,93,82,89,91,89,79,90,89
+CM,34,L,-3877769,-7153627,28,156,1231,small,east,aza.ser,Azara serrata,native,2,93,82,89,91,89,79,90,89
+CM,34,L,-3877769,-7153627,28,156,1231,small,east,cwd,coarse woody debris,NA,40,93,82,89,91,89,79,90,89
+CM,34,L,-3877769,-7153627,28,156,1231,small,east,bare.gr,bare ground,NA,5,93,82,89,91,89,79,90,89
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,rib.mag,Ribes magellanicum,native,1,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,not.alp,Nothofagus alpina,native,5,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,lac.ser,Lactuca serriola,exotic,2,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,cir.vul,Cirsium vulgare,exotic,2,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,not.dom,Nothofagus dombeyi,native,1,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,epi.sp,Epilobium sp,native,2,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,fwd,fine woody debris,NA,60,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,south,bare.gr,bare ground,NA,27,92,74,76,82,89,74,75,80
+CM,34,L,-3877769,-7153627,28,156,1231,small,west,chu.sp,Chusquea sp,native,8,90,90,78,88,90,90,80,86
+CM,34,L,-3877769,-7153627,28,156,1231,small,west,fwd,fine woody debris,NA,60,90,90,78,88,90,90,80,86
+CM,34,L,-3877769,-7153627,28,156,1231,small,west,bare.gr,bare ground,NA,32,90,90,78,88,90,90,80,86
+CM,35,L,-3875213,-7150235,26,352,1536,medium,north,chu.sp,Chusquea sp,native,50,90,94,90,93,86,91,90,94
+CM,35,L,-3875213,-7150235,26,352,1536,medium,north,may.dis,Maytenus disticha,native,18,90,94,90,93,86,91,90,94
+CM,35,L,-3875213,-7150235,26,352,1536,medium,north,als.aur,Alstroemeria aurea,native,2,90,94,90,93,86,91,90,94
+CM,35,L,-3875213,-7150235,26,352,1536,medium,north,cwd,coarse woody debris,NA,30,90,94,90,93,86,91,90,94
+CM,35,L,-3875213,-7150235,26,352,1536,medium,east,als.aur,Alstroemeria aurea,native,10,91,86,88,93,90,82,84,92
+CM,35,L,-3875213,-7150235,26,352,1536,medium,east,chu.sp,Chusquea sp,native,20,91,86,88,93,90,82,84,92
+CM,35,L,-3875213,-7150235,26,352,1536,medium,east,myo.obl,Myoschilos oblongum,native,5,91,86,88,93,90,82,84,92
+CM,35,L,-3875213,-7150235,26,352,1536,medium,east,not.pum,Nothofagus pumilio,native,25,91,86,88,93,90,82,84,92
+CM,35,L,-3875213,-7150235,26,352,1536,medium,east,cwd,coarse woody debris,NA,40,91,86,88,93,90,82,84,92
+CM,35,L,-3875213,-7150235,26,352,1536,medium,south,chu.sp,Chusquea sp,native,20,91,68,82,91,87,65,80,90
+CM,35,L,-3875213,-7150235,26,352,1536,medium,south,als.aur,Alstroemeria aurea,native,10,91,68,82,91,87,65,80,90
+CM,35,L,-3875213,-7150235,26,352,1536,medium,south,osm.chi,Osmorhiza chilensis,native,2,91,68,82,91,87,65,80,90
+CM,35,L,-3875213,-7150235,26,352,1536,medium,south,rib.mag,Ribes magellanicum,native,3,91,68,82,91,87,65,80,90
+CM,35,L,-3875213,-7150235,26,352,1536,medium,south,car.bre,Carex brevicaulis,native,5,91,68,82,91,87,65,80,90
+CM,35,L,-3875213,-7150235,26,352,1536,medium,south,cwd,coarse woody debris,NA,60,91,68,82,91,87,65,80,90
+CM,35,L,-3875213,-7150235,26,352,1536,medium,west,rib.mag,Ribes magellanicum,native,5,95,95,89,93,92,95,88,88
+CM,35,L,-3875213,-7150235,26,352,1536,medium,west,not.pum,Nothofagus pumilio,native,15,95,95,89,93,92,95,88,88
+CM,35,L,-3875213,-7150235,26,352,1536,medium,west,chu.sp,Chusquea sp,native,35,95,95,89,93,92,95,88,88
+CM,35,L,-3875213,-7150235,26,352,1536,medium,west,als.aur,Alstroemeria aurea,native,5,95,95,89,93,92,95,88,88
+CM,35,L,-3875213,-7150235,26,352,1536,medium,west,cwd,coarse woody debris,NA,40,95,95,89,93,92,95,88,88
+CM,36,L,-3876641,-7152293,12,284,1594,medium,north,als.aur,Alstroemeria aurea,native,30,72,83,84,92,71,80,83,93
+CM,36,L,-3876641,-7152293,12,284,1594,medium,north,may.dis,Maytenus disticha,native,8,72,83,84,92,71,80,83,93
+CM,36,L,-3876641,-7152293,12,284,1594,medium,north,ber.mic,Berberis microphylla,native,7,72,83,84,92,71,80,83,93
+CM,36,L,-3876641,-7152293,12,284,1594,medium,north,bare.gr,bare ground,NA,55,72,83,84,92,71,80,83,93
+CM,36,L,-3876641,-7152293,12,284,1594,medium,east,als.aur,Alstroemeria aurea,native,10,75,82,60,64,72,79,56,63
+CM,36,L,-3876641,-7152293,12,284,1594,medium,east,rib.mag,Ribes magellanicum,native,2,75,82,60,64,72,79,56,63
+CM,36,L,-3876641,-7152293,12,284,1594,medium,east,ber.mic,Berberis microphylla,native,2,75,82,60,64,72,79,56,63
+CM,36,L,-3876641,-7152293,12,284,1594,medium,east,cwd,coarse woody debris,NA,51,75,82,60,64,72,79,56,63
+CM,36,L,-3876641,-7152293,12,284,1594,medium,east,bare.gr,bare ground,NA,35,75,82,60,64,72,79,56,63
+CM,36,L,-3876641,-7152293,12,284,1594,medium,south,rum.ace,Rumex acetosella,exotic,85,26,50,75,54,23,50,72,37
+CM,36,L,-3876641,-7152293,12,284,1594,medium,south,bare.gr,bare ground,NA,15,26,50,75,54,23,50,72,37
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,rib.den,Ribes densiflorum,native,2,92,92,75,73,92,91,74,73
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,aca.pin,Acaena pinnatifida,native,1,92,92,75,73,92,91,74,73
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,ber.mic,Berberis microphylla,native,2,92,92,75,73,92,91,74,73
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,not.pum,Nothofagus pumilio,native,20,92,92,75,73,92,91,74,73
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,als.aur,Alstroemeria aurea,native,6,92,92,75,73,92,91,74,73
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,bare.gr,bare ground,NA,30,92,92,75,73,92,91,74,73
+CM,36,L,-3876641,-7152293,12,284,1594,medium,west,fwd,fine woody debris,NA,40,92,92,75,73,92,91,74,73
+CM,37,L,-3876889,-7149835,26,256,1550,large,north,chu.sp,Chusquea sp,native,30,47,70,45,33,45,65,47,31
+CM,37,L,-3876889,-7149835,26,256,1550,large,north,vic.nig,Vicia nigricans,native,20,47,70,45,33,45,65,47,31
+CM,37,L,-3876889,-7149835,26,256,1550,large,north,als.aur,Alstroemeria aurea,native,21,47,70,45,33,45,65,47,31
+CM,37,L,-3876889,-7149835,26,256,1550,large,north,rib.den,Ribes densiflorum,native,2,47,70,45,33,45,65,47,31
+CM,37,L,-3876889,-7149835,26,256,1550,large,north,myo.obl,Myoschilos oblongum,native,2,47,70,45,33,45,65,47,31
+CM,37,L,-3876889,-7149835,26,256,1550,large,north,fwd,fine woody debris,NA,25,47,70,45,33,45,65,47,31
+CM,37,L,-3876889,-7149835,26,256,1550,large,east,dri.and,Drimys andina,native,40,90,86,47,61,56,54,49,57
+CM,37,L,-3876889,-7149835,26,256,1550,large,east,chu.sp,Chusquea sp,native,35,90,86,47,61,56,54,49,57
+CM,37,L,-3876889,-7149835,26,256,1550,large,east,vic.nig,Vicia nigricans,native,15,90,86,47,61,56,54,49,57
+CM,37,L,-3876889,-7149835,26,256,1550,large,east,ber.mic,Berberis microphylla,native,3,90,86,47,61,56,54,49,57
+CM,37,L,-3876889,-7149835,26,256,1550,large,east,vio.rei,Viola reichei,native,2,90,86,47,61,56,54,49,57
+CM,37,L,-3876889,-7149835,26,256,1550,large,east,myo.obl,Myoschilos oblongum,native,5,90,86,47,61,56,54,49,57
+CM,37,L,-3876889,-7149835,26,256,1550,large,south,rib.mag,Ribes magellanicum,native,50,56,67,26,46,56,63,24,50
+CM,37,L,-3876889,-7149835,26,256,1550,large,south,als.aur,Alstroemeria aurea,native,15,56,67,26,46,56,63,24,50
+CM,37,L,-3876889,-7149835,26,256,1550,large,south,vic.nig,Vicia nigricans,native,5,56,67,26,46,56,63,24,50
+CM,37,L,-3876889,-7149835,26,256,1550,large,south,fwd,fine woody debris,NA,30,56,67,26,46,56,63,24,50
+CM,37,L,-3876889,-7149835,26,256,1550,large,west,dri.and,Drimys andina,native,13,92,82,71,82,80,81,59,53
+CM,37,L,-3876889,-7149835,26,256,1550,large,west,chu.sp,Chusquea sp,native,60,92,82,71,82,80,81,59,53
+CM,37,L,-3876889,-7149835,26,256,1550,large,west,als.aur,Alstroemeria aurea,native,15,92,82,71,82,80,81,59,53
+CM,37,L,-3876889,-7149835,26,256,1550,large,west,vic.nig,Vicia nigricans,native,10,92,82,71,82,80,81,59,53
+CM,37,L,-3876889,-7149835,26,256,1550,large,west,myo.obl,Myoschilos oblongum,native,2,92,82,71,82,80,81,59,53
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,cal.val,Calceolaria valdiviana,native,2,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,osm.chi,Osmorhiza chilensis,native,3,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,epi.sp,Epilobium sp,native,2,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,agr.cap,Agrostis capillaris,exotic,3,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,hyp.rad,Hypochaeris radicata,exotic,3,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,fes.sp,Festuca sp,native,20,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,north,bare.gr,bare ground,NA,67,77,73,81,78,77,70,79,73
+CM,38,L,-3878637,-7152331,22,20,1150,large,east,als.aur,Alstroemeria aurea,native,18,73,71,78,85,77,64,80,82
+CM,38,L,-3878637,-7152331,22,20,1150,large,east,oxa.val,Oxalis valdiviensis,native,14,73,71,78,85,77,64,80,82
+CM,38,L,-3878637,-7152331,22,20,1150,large,east,rum.ace,Rumex acetosella,exotic,15,73,71,78,85,77,64,80,82
+CM,38,L,-3878637,-7152331,22,20,1150,large,east,ger.cor,Geranium core-core,native,2,73,71,78,85,77,64,80,82
+CM,38,L,-3878637,-7152331,22,20,1150,large,east,bare.gr,bare ground,NA,51,73,71,78,85,77,64,80,82
+CM,38,L,-3878637,-7152331,22,20,1150,large,south,lat.sub,Lathyrus subandinus,native,2,81,84,76,69,76,78,77,72
+CM,38,L,-3878637,-7152331,22,20,1150,large,south,car.hir,Cardamine hirsuta,exotic,8,81,84,76,69,76,78,77,72
+CM,38,L,-3878637,-7152331,22,20,1150,large,south,not.obl,Nothofagus obliqua,native,45,81,84,76,69,76,78,77,72
+CM,38,L,-3878637,-7152331,22,20,1150,large,south,oxa.val,Oxalis valdiviensis,native,5,81,84,76,69,76,78,77,72
+CM,38,L,-3878637,-7152331,22,20,1150,large,south,bare.gr,bare ground,NA,40,81,84,76,69,76,78,77,72
+CM,38,L,-3878637,-7152331,22,20,1150,large,west,oxa.val,Oxalis valdiviensis,native,5,53,77,80,81,48,78,75,81
+CM,38,L,-3878637,-7152331,22,20,1150,large,west,fes.sp,Festuca sp,native,13,53,77,80,81,48,78,75,81
+CM,38,L,-3878637,-7152331,22,20,1150,large,west,als.aur,Alstroemeria aurea,native,2,53,77,80,81,48,78,75,81
+CM,38,L,-3878637,-7152331,22,20,1150,large,west,bare.gr,bare ground,NA,80,53,77,80,81,48,78,75,81
+CM,39,L,-3874835,-7150907,16,60,1565,medium,north,als.aur,Alstroemeria aurea,native,30,87,86,82,80,82,85,85,83
+CM,39,L,-3874835,-7150907,16,60,1565,medium,north,per.pre,Perezia prenanthoides,native,5,87,86,82,80,82,85,85,83
+CM,39,L,-3874835,-7150907,16,60,1565,medium,north,chu.sp,Chusquea sp,native,4,87,86,82,80,82,85,85,83
+CM,39,L,-3874835,-7150907,16,60,1565,medium,north,cwd,coarse woody debris,NA,60,87,86,82,80,82,85,85,83
+CM,39,L,-3874835,-7150907,16,60,1565,medium,north,not.pum,Nothofagus pumilio,native,1,87,86,82,80,82,85,85,83
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,ber.ser,Berberis serratodentata,native,5,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,als.aur,Alstroemeria aurea,native,30,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,vic.nig,Vicia nigricans,native,7,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,vio.rei,Viola reichei,native,5,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,rib.mag,Ribes magellanicum,native,10,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,chu.sp,Chusquea sp,native,15,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,sen.pil,Senecio pilquensis,native,7,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,east,cwd,coarse woody debris,NA,21,88,80,81,89,85,78,78,87
+CM,39,L,-3874835,-7150907,16,60,1565,medium,south,not.pum,Nothofagus pumilio,native,4,84,83,76,81,76,85,78,84
+CM,39,L,-3874835,-7150907,16,60,1565,medium,south,als.aur,Alstroemeria aurea,native,3,84,83,76,81,76,85,78,84
+CM,39,L,-3874835,-7150907,16,60,1565,medium,south,cwd,coarse woody debris,NA,93,84,83,76,81,76,85,78,84
+CM,39,L,-3874835,-7150907,16,60,1565,medium,west,sen.pil,Senecio pilquensis,native,15,80,85,80,80,72,87,82,78
+CM,39,L,-3874835,-7150907,16,60,1565,medium,west,not.pum,Nothofagus pumilio,native,35,80,85,80,80,72,87,82,78
+CM,39,L,-3874835,-7150907,16,60,1565,medium,west,als.aur,Alstroemeria aurea,native,10,80,85,80,80,72,87,82,78
+CM,39,L,-3874835,-7150907,16,60,1565,medium,west,chu.sp,Chusquea sp,native,5,80,85,80,80,72,87,82,78
+CM,39,L,-3874835,-7150907,16,60,1565,medium,west,cwd,coarse woody debris,NA,35,80,85,80,80,72,87,82,78
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,not.pum,Nothofagus pumilio,native,1,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,als.aur,Alstroemeria aurea,native,35,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,chu.sp,Chusquea sp,native,20,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,rib.mag,Ribes magellanicum,native,5,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,vic.nig,Vicia nigricans,native,4,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,cwd,coarse woody debris,NA,30,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,north,ber.tri,Berberis trigona,native,5,81,72,83,82,75,65,81,81
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,ble.pen,Blechnum penna-marina,native,2,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,als.aur,Alstroemeria aurea,native,5,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,ber.ser,Berberis serratodentata,native,3,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,chu.sp,Chusquea sp,native,20,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,vic.nig,Vicia nigricans,native,15,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,aca.ova,Acaena ovalifolia,native,2,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,may.dis,Maytenus disticha,native,3,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,east,cwd,coarse woody debris,NA,50,75,28,74,77,73,27,74,76
+CM,40,L,-3874268,-7151627,24,18,1586,medium,south,aca.ova,Acaena ovalifolia,native,35,81,87,81,83,84,83,78,82
+CM,40,L,-3874268,-7151627,24,18,1586,medium,south,rib.mag,Ribes magellanicum,native,5,81,87,81,83,84,83,78,82
+CM,40,L,-3874268,-7151627,24,18,1586,medium,south,als.aur,Alstroemeria aurea,native,15,81,87,81,83,84,83,78,82
+CM,40,L,-3874268,-7151627,24,18,1586,medium,south,vic.nig,Vicia nigricans,native,30,81,87,81,83,84,83,78,82
+CM,40,L,-3874268,-7151627,24,18,1586,medium,south,may.dis,Maytenus disticha,native,15,81,87,81,83,84,83,78,82
+CM,40,L,-3874268,-7151627,24,18,1586,medium,west,als.aur,Alstroemeria aurea,native,20,81,78,93,80,84,77,90,61
+CM,40,L,-3874268,-7151627,24,18,1586,medium,west,rib.mag,Ribes magellanicum,native,1,81,78,93,80,84,77,90,61
+CM,40,L,-3874268,-7151627,24,18,1586,medium,west,chu.sp,Chusquea sp,native,15,81,78,93,80,84,77,90,61
+CM,40,L,-3874268,-7151627,24,18,1586,medium,west,vic.nig,Vicia nigricans,native,4,81,78,93,80,84,77,90,61
+CM,40,L,-3874268,-7151627,24,18,1586,medium,west,cwd,coarse woody debris,NA,60,81,78,93,80,84,77,90,61
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,north,may.dis,Maytenus disticha,native,70,93,89,92,93,92,86,90,92
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,north,not.pum,Nothofagus pumilio,native,15,93,89,92,93,92,86,90,92
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,north,bare.gr,bare ground,NA,10,93,89,92,93,92,86,90,92
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,north,cwd,coarse woody debris,NA,5,93,89,92,93,92,86,90,92
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,east,may.dis,Maytenus disticha,native,10,92,91,92,91,89,90,88,90
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,east,per.pre,Perezia prenanthoides,native,2,92,91,92,91,89,90,88,90
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,east,cwd,coarse woody debris,NA,88,92,91,92,91,89,90,88,90
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,south,osm.chi,Osmorhiza chilensis,native,8,91,89,92,91,91,86,92,89
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,south,not.pum,Nothofagus pumilio,native,5,91,89,92,91,91,86,92,89
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,south,may.dis,Maytenus disticha,native,3,91,89,92,91,91,86,92,89
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,south,per.pre,Perezia prenanthoides,native,4,91,89,92,91,91,86,92,89
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,south,bare.gr,bare ground,NA,80,91,89,92,91,91,86,92,89
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,west,per.pre,Perezia prenanthoides,native,7,94,92,88,93,94,90,89,93
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,west,chu.sp,Chusquea sp,native,3,94,92,88,93,94,90,89,93
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,west,may.dis,Maytenus disticha,native,10,94,92,88,93,94,90,89,93
+CM,41,UN,-3875921,-7149667,6,338,1664,medium,west,bare.gr,bare ground,NA,80,94,92,88,93,94,90,89,93
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,north,chu.sp,Chusquea sp,native,70,88,94,92,68,89,94,91,73
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,north,may.dis,Maytenus disticha,native,5,88,94,92,68,89,94,91,73
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,north,not.pum,Nothofagus pumilio,native,20,88,94,92,68,89,94,91,73
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,north,als.aur,Alstroemeria aurea,native,3,88,94,92,68,89,94,91,73
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,north,ber.tri,Berberis trigona,native,2,88,94,92,68,89,94,91,73
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,ade.chi,Adenocaulon chilense,native,1,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,als.aur,Alstroemeria aurea,native,2,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,per.pre,Perezia prenanthoides,native,2,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,may.dis,Maytenus disticha,native,45,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,ber.mic,Berberis microphylla,native,20,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,rib.den,Ribes densiflorum,native,2,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,ara.ara,Araucaria araucana,native,1,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,myo.obl,Myoschilos oblongum,native,2,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,east,bare.gr,bare ground,NA,25,90,89,88,92,88,89,89,90
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,south,ade.chi,Adenocaulon chilense,native,1,92,91,93,93,93,93,93,94
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,south,may.dis,Maytenus disticha,native,10,92,91,93,93,93,93,93,94
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,south,not.pum,Nothofagus pumilio,native,30,92,91,93,93,93,93,93,94
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,south,ara.ara,Araucaria araucana,native,35,92,91,93,93,93,93,93,94
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,south,aza.alp,Azara alpina,native,24,92,91,93,93,93,93,93,94
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,west,may.dis,Maytenus disticha,native,80,68,89,92,68,62,92,93,66
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,west,als.aur,Alstroemeria aurea,native,10,68,89,92,68,62,92,93,66
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,west,vic.nig,Vicia nigricans,native,5,68,89,92,68,62,92,93,66
+CM,42,UN,-3873141,-7151175,14,284,1523,medium,west,bare.gr,bare ground,NA,5,68,89,92,68,62,92,93,66
+CM,43,UN,-3874590,-7150578,6,352,1511,large,north,als.aur,Alstroemeria aurea,native,35,94,94,94,92,93,93,93,92
+CM,43,UN,-3874590,-7150578,6,352,1511,large,north,not.pum,Nothofagus pumilio,native,25,94,94,94,92,93,93,93,92
+CM,43,UN,-3874590,-7150578,6,352,1511,large,north,chu.sp,Chusquea sp,native,35,94,94,94,92,93,93,93,92
+CM,43,UN,-3874590,-7150578,6,352,1511,large,north,ber.ser,Berberis serratodentata,native,3,94,94,94,92,93,93,93,92
+CM,43,UN,-3874590,-7150578,6,352,1511,large,north,vic.nig,Vicia nigricans,native,2,94,94,94,92,93,93,93,92
+CM,43,UN,-3874590,-7150578,6,352,1511,large,east,ber.ser,Berberis serratodentata,native,5,94,94,94,94,94,93,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,east,chu.sp,Chusquea sp,native,50,94,94,94,94,94,93,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,east,may.dis,Maytenus disticha,native,10,94,94,94,94,94,93,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,east,als.aur,Alstroemeria aurea,native,5,94,94,94,94,94,93,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,east,bare.gr,bare ground,NA,30,94,94,94,94,94,93,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,south,may.dis,Maytenus disticha,native,35,89,95,93,95,92,94,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,south,chu.sp,Chusquea sp,native,50,89,95,93,95,92,94,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,south,als.aur,Alstroemeria aurea,native,15,89,95,93,95,92,94,94,94
+CM,43,UN,-3874590,-7150578,6,352,1511,large,west,may.dis,Maytenus disticha,native,15,94,95,94,93,92,95,94,91
+CM,43,UN,-3874590,-7150578,6,352,1511,large,west,ber.ser,Berberis serratodentata,native,5,94,95,94,93,92,95,94,91
+CM,43,UN,-3874590,-7150578,6,352,1511,large,west,chu.sp,Chusquea sp,native,60,94,95,94,93,92,95,94,91
+CM,43,UN,-3874590,-7150578,6,352,1511,large,west,not.pum,Nothofagus pumilio,native,20,94,95,94,93,92,95,94,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,north,may.dis,Maytenus disticha,native,45,89,88,92,87,92,89,88,88
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,north,not.pum,Nothofagus pumilio,native,50,89,88,92,87,92,89,88,88
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,north,rib.den,Ribes densiflorum,native,5,89,88,92,87,92,89,88,88
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,east,may.dis,Maytenus disticha,native,15,89,86,88,93,89,87,91,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,east,ara.ara,Araucaria araucana,native,15,89,86,88,93,89,87,91,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,east,ade.chi,Adenocaulon chilense,native,3,89,86,88,93,89,87,91,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,east,not.pum,Nothofagus pumilio,native,60,89,86,88,93,89,87,91,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,east,per.pre,Perezia prenanthoides,native,3,89,86,88,93,89,87,91,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,east,rib.den,Ribes densiflorum,native,4,89,86,88,93,89,87,91,91
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,may.dis,Maytenus disticha,native,10,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,gau.poe,Gaultheria poeppigii,native,60,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,als.aur,Alstroemeria aurea,native,5,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,car.bre,Carex brevicaulis,native,3,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,per.pre,Perezia prenanthoides,native,3,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,per.ped,Perezia pedicularifolia,native,3,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,ara.ara,Araucaria araucana,native,8,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,chl.sp,Orquidea,native,3,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,south,ade.chi,Adenocaulon chilense,native,5,85,83,86,76,85,82,82,78
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,west,sen.pil,Senecio pilquensis,native,5,70,85,83,71,74,82,80,71
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,west,als.aur,Alstroemeria aurea,native,5,70,85,83,71,74,82,80,71
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,west,may.dis,Maytenus disticha,native,35,70,85,83,71,74,82,80,71
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,west,not.pum,Nothofagus pumilio,native,53,70,85,83,71,74,82,80,71
+CM,44,UN,-3873315,-7151625,10,138,1500,medium,west,car.bre,Carex brevicaulis,native,2,70,85,83,71,74,82,80,71
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,ble.pen,Blechnum penna-marina,native,5,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,ade.chi,Adenocaulon chilense,native,8,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,may.dis,Maytenus disticha,native,10,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,car.bre,Carex brevicaulis,native,8,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,ara.ara,Araucaria araucana,native,4,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,cwd,coarse woody debris,NA,30,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,north,bare.gr,bare ground,NA,35,86,91,86,89,83,90,87,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,east,rib.den,Ribes densiflorum,native,5,84,82,84,88,84,84,86,81
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,east,may.dis,Maytenus disticha,native,18,84,82,84,88,84,84,86,81
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,east,cwd,coarse woody debris,NA,67,84,82,84,88,84,84,86,81
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,east,bare.gr,bare ground,NA,10,84,82,84,88,84,84,86,81
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,south,cwd,coarse woody debris,NA,60,85,87,87,84,84,84,86,81
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,south,bare.gr,bare ground,NA,40,85,87,87,84,84,84,86,81
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,west,may.dis,Maytenus disticha,native,35,88,87,79,90,84,85,78,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,west,vic.nig,Vicia nigricans,native,4,88,87,79,90,84,85,78,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,west,ade.chi,Adenocaulon chilense,native,5,88,87,79,90,84,85,78,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,west,osm.chi,Osmorhiza chilensis,native,1,88,87,79,90,84,85,78,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,west,cwd,coarse woody debris,NA,30,88,87,79,90,84,85,78,89
+CM,45,UN,-3876334,-7149838,4,270,1580,medium,west,bare.gr,bare ground,NA,25,88,87,79,90,84,85,78,89
+CM,46,UN,-3875271,-7148864,14,334,1525,large,north,myo.obl,Myoschilos oblongum,native,35,90,93,93,88,90,93,92,87
+CM,46,UN,-3875271,-7148864,14,334,1525,large,north,aca.ova,Acaena ovalifolia,native,25,90,93,93,88,90,93,92,87
+CM,46,UN,-3875271,-7148864,14,334,1525,large,north,not.pum,Nothofagus pumilio,native,5,90,93,93,88,90,93,92,87
+CM,46,UN,-3875271,-7148864,14,334,1525,large,north,als.aur,Alstroemeria aurea,native,25,90,93,93,88,90,93,92,87
+CM,46,UN,-3875271,-7148864,14,334,1525,large,north,bare.gr,bare ground,NA,10,90,93,93,88,90,93,92,87
+CM,46,UN,-3875271,-7148864,14,334,1525,large,east,ara.ara,Araucaria araucana,native,8,91,92,91,92,90,92,88,92
+CM,46,UN,-3875271,-7148864,14,334,1525,large,east,cwd,coarse woody debris,NA,32,91,92,91,92,90,92,88,92
+CM,46,UN,-3875271,-7148864,14,334,1525,large,east,bare.gr,bare ground,NA,60,91,92,91,92,90,92,88,92
+CM,46,UN,-3875271,-7148864,14,334,1525,large,south,chu.sp,Chusquea sp,native,60,93,93,91,94,91,89,90,94
+CM,46,UN,-3875271,-7148864,14,334,1525,large,south,gau.poe,Gaultheria poeppigii,native,5,93,93,91,94,91,89,90,94
+CM,46,UN,-3875271,-7148864,14,334,1525,large,south,cwd,coarse woody debris,NA,35,93,93,91,94,91,89,90,94
+CM,46,UN,-3875271,-7148864,14,334,1525,large,west,gau.poe,Gaultheria poeppigii,native,15,91,94,95,94,90,94,95,95
+CM,46,UN,-3875271,-7148864,14,334,1525,large,west,als.aur,Alstroemeria aurea,native,3,91,94,95,94,90,94,95,95
+CM,46,UN,-3875271,-7148864,14,334,1525,large,west,vic.nig,Vicia nigricans,native,4,91,94,95,94,90,94,95,95
+CM,46,UN,-3875271,-7148864,14,334,1525,large,west,chu.sp,Chusquea sp,native,70,91,94,95,94,90,94,95,95
+CM,46,UN,-3875271,-7148864,14,334,1525,large,west,rib.mag,Ribes magellanicum,native,5,91,94,95,94,90,94,95,95
+CM,46,UN,-3875271,-7148864,14,334,1525,large,west,ble.pen,Blechnum penna-marina,native,3,91,94,95,94,90,94,95,95
+CM,47,UN,-3873970,-7151020,8,90,1466,large,north,myo.obl,Myoschilos oblongum,native,10,92,88,83,84,94,90,80,71
+CM,47,UN,-3873970,-7151020,8,90,1466,large,north,may.dis,Maytenus disticha,native,60,92,88,83,84,94,90,80,71
+CM,47,UN,-3873970,-7151020,8,90,1466,large,north,ber.ser,Berberis serratodentata,native,5,92,88,83,84,94,90,80,71
+CM,47,UN,-3873970,-7151020,8,90,1466,large,north,chu.sp,Chusquea sp,native,20,92,88,83,84,94,90,80,71
+CM,47,UN,-3873970,-7151020,8,90,1466,large,north,rib.den,Ribes densiflorum,native,5,92,88,83,84,94,90,80,71
+CM,47,UN,-3873970,-7151020,8,90,1466,large,east,not.pum,Nothofagus pumilio,native,20,88,91,92,87,83,90,90,83
+CM,47,UN,-3873970,-7151020,8,90,1466,large,east,ber.ser,Berberis serratodentata,native,30,88,91,92,87,83,90,90,83
+CM,47,UN,-3873970,-7151020,8,90,1466,large,east,may.dis,Maytenus disticha,native,45,88,91,92,87,83,90,90,83
+CM,47,UN,-3873970,-7151020,8,90,1466,large,east,rib.den,Ribes densiflorum,native,5,88,91,92,87,83,90,90,83
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,rub.geo,Rubus geoides,native,2,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,may.dis,Maytenus disticha,native,35,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,per.pre,Perezia prenanthoides,native,3,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,not.pum,Nothofagus pumilio,native,30,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,rib.den,Ribes densiflorum,native,2,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,ade.chi,Adenocaulon chilense,native,2,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,ber.ser,Berberis serratodentata,native,15,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,osm.chi,Osmorhiza chilensis,native,5,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,myo.obl,Myoschilos oblongum,native,3,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,south,vio.rei,Viola reichei,native,3,88,93,92,87,84,93,92,88
+CM,47,UN,-3873970,-7151020,8,90,1466,large,west,may.dis,Maytenus disticha,native,10,71,89,93,81,74,92,90,77
+CM,47,UN,-3873970,-7151020,8,90,1466,large,west,ber.ser,Berberis serratodentata,native,5,71,89,93,81,74,92,90,77
+CM,47,UN,-3873970,-7151020,8,90,1466,large,west,ber.mic,Berberis microphylla,native,4,71,89,93,81,74,92,90,77
+CM,47,UN,-3873970,-7151020,8,90,1466,large,west,ade.chi,Adenocaulon chilense,native,1,71,89,93,81,74,92,90,77
+CM,47,UN,-3873970,-7151020,8,90,1466,large,west,cwd,coarse woody debris,NA,80,71,89,93,81,74,92,90,77
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,north,ber.ser,Berberis serratodentata,native,20,92,93,89,90,94,94,88,90
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,north,osm.chi,Osmorhiza chilensis,native,2,92,93,89,90,94,94,88,90
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,north,not.pum,Nothofagus pumilio,native,30,92,93,89,90,94,94,88,90
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,north,may.dis,Maytenus disticha,native,5,92,93,89,90,94,94,88,90
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,north,ber.mic,Berberis microphylla,native,3,92,93,89,90,94,94,88,90
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,north,bare.gr,bare ground,NA,40,92,93,89,90,94,94,88,90
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,osm.chi,Osmorhiza chilensis,native,5,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,ber.ser,Berberis serratodentata,native,65,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,may.dis,Maytenus disticha,native,5,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,vic.nig,Vicia nigricans,native,5,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,ber.mic,Berberis microphylla,native,5,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,rib.den,Ribes densiflorum,native,5,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,east,bare.gr,bare ground,NA,10,94,91,90,92,94,89,88,92
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,south,ber.ser,Berberis serratodentata,native,60,94,86,89,92,93,87,77,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,south,may.dis,Maytenus disticha,native,5,94,86,89,92,93,87,77,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,south,not.pum,Nothofagus pumilio,native,4,94,86,89,92,93,87,77,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,south,vic.nig,Vicia nigricans,native,4,94,86,89,92,93,87,77,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,south,per.pre,Perezia prenanthoides,native,2,94,86,89,92,93,87,77,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,south,cwd,coarse woody debris,NA,25,94,86,89,92,93,87,77,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,rib.den,Ribes densiflorum,native,5,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,ber.mic,Berberis microphylla,native,5,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,osm.chi,Osmorhiza chilensis,native,5,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,vio.rei,Viola reichei,native,4,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,per.pre,Perezia prenanthoides,native,4,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,not.pum,Nothofagus pumilio,native,35,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,may.dis,Maytenus disticha,native,5,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,rub.geo,Rubus geoides,native,2,95,93,94,92,94,92,95,94
+CM,48,UN,-3875004,-7149602,2,156,1479,medium,west,bare.gr,bare ground,NA,35,95,93,94,92,94,92,95,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,north,ber.mic,Berberis microphylla,native,20,91,92,92,95,89,91,90,93
+CM,49,UN,-3876133,-7150343,38,110,1644,large,north,may.dis,Maytenus disticha,native,80,91,92,92,95,89,91,90,93
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,osm.chi,Osmorhiza chilensis,native,10,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,per.pre,Perezia prenanthoides,native,15,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,ade.chi,Adenocaulon chilense,native,20,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,may.dis,Maytenus disticha,native,4,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,ber.mic,Berberis microphylla,native,1,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,cwd,coarse woody debris,NA,30,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,east,bare.gr,bare ground,NA,20,93,87,90,94,91,84,90,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,south,may.dis,Maytenus disticha,native,30,92,92,94,93,93,88,92,91
+CM,49,UN,-3876133,-7150343,38,110,1644,large,south,per.pre,Perezia prenanthoides,native,5,92,92,94,93,93,88,92,91
+CM,49,UN,-3876133,-7150343,38,110,1644,large,south,ade.chi,Adenocaulon chilense,native,5,92,92,94,93,93,88,92,91
+CM,49,UN,-3876133,-7150343,38,110,1644,large,south,ber.mic,Berberis microphylla,native,5,92,92,94,93,93,88,92,91
+CM,49,UN,-3876133,-7150343,38,110,1644,large,south,bare.gr,bare ground,NA,35,92,92,94,93,93,88,92,91
+CM,49,UN,-3876133,-7150343,38,110,1644,large,south,cwd,coarse woody debris,NA,20,92,92,94,93,93,88,92,91
+CM,49,UN,-3876133,-7150343,38,110,1644,large,west,may.dis,Maytenus disticha,native,30,92,94,87,95,93,94,85,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,west,ber.mic,Berberis microphylla,native,15,92,94,87,95,93,94,85,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,west,ade.chi,Adenocaulon chilense,native,5,92,94,87,95,93,94,85,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,west,ble.pen,Blechnum penna-marina,native,2,92,94,87,95,93,94,85,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,west,per.pre,Perezia prenanthoides,native,5,92,94,87,95,93,94,85,94
+CM,49,UN,-3876133,-7150343,38,110,1644,large,west,bare.gr,bare ground,NA,43,92,94,87,95,93,94,85,94
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,als.aur,Alstroemeria aurea,native,10,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,osm.chi,Osmorhiza chilensis,native,10,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,ber.mic,Berberis microphylla,native,5,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,ber.ser,Berberis serratodentata,native,3,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,not.pum,Nothofagus pumilio,native,10,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,bare.gr,bare ground,NA,57,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,north,cwd,coarse woody debris,NA,5,89,89,90,91,90,87,88,90
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,east,als.aur,Alstroemeria aurea,native,65,92,93,94,92,92,92,94,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,east,may.dis,Maytenus disticha,native,15,92,93,94,92,92,92,94,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,east,per.pre,Perezia prenanthoides,native,5,92,93,94,92,92,92,94,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,east,vic.nig,Vicia nigricans,native,5,92,93,94,92,92,92,94,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,east,bare.gr,bare ground,NA,10,92,93,94,92,92,92,94,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,south,chu.sp,Chusquea sp,native,65,92,90,95,94,91,92,95,93
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,south,may.dis,Maytenus disticha,native,20,92,90,95,94,91,92,95,93
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,south,als.aur,Alstroemeria aurea,native,5,92,90,95,94,91,92,95,93
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,south,per.pre,Perezia prenanthoides,native,2,92,90,95,94,91,92,95,93
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,south,bare.gr,bare ground,NA,8,92,90,95,94,91,92,95,93
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,chu.sp,Chusquea sp,native,50,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,sol.val,Solanum valdiviense,native,10,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,osm.chi,Osmorhiza chilensis,native,5,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,may.dis,Maytenus disticha,native,5,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,als.aur,Alstroemeria aurea,native,2,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,ade.chi,Adenocaulon chilense,native,2,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,ber.mic,Berberis microphylla,native,1,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,bare.gr,bare ground,NA,5,92,93,91,93,92,93,92,92
+CM,50,UN,-3875807,-7149769,14,30,1642,medium,west,cwd,coarse woody debris,NA,20,92,93,91,93,92,93,92,92
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,north,not.pum,Nothofagus pumilio,native,55,83,90,91,87,80,89,89,80
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,north,may.dis,Maytenus disticha,native,5,83,90,91,87,80,89,89,80
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,north,als.aur,Alstroemeria aurea,native,5,83,90,91,87,80,89,89,80
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,north,per.pre,Perezia prenanthoides,native,5,83,90,91,87,80,89,89,80
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,north,bare.gr,bare ground,NA,30,83,90,91,87,80,89,89,80
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,east,ber.mic,Berberis microphylla,native,35,90,90,88,89,89,87,88,89
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,east,als.aur,Alstroemeria aurea,native,5,90,90,88,89,89,87,88,89
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,east,osm.chi,Osmorhiza chilensis,native,5,90,90,88,89,89,87,88,89
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,east,bare.gr,bare ground,NA,55,90,90,88,89,89,87,88,89
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,south,car.bre,Carex brevicaulis,native,40,89,90,87,88,88,90,87,87
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,south,osm.chi,Osmorhiza chilensis,native,3,89,90,87,88,88,90,87,87
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,south,ber.mic,Berberis microphylla,native,1,89,90,87,88,88,90,87,87
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,south,not.pum,Nothofagus pumilio,native,1,89,90,87,88,88,90,87,87
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,south,bare.gr,bare ground,NA,55,89,90,87,88,88,90,87,87
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,west,als.aur,Alstroemeria aurea,native,3,84,89,86,82,83,89,82,85
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,west,per.pre,Perezia prenanthoides,native,2,84,89,86,82,83,89,82,85
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,west,may.dis,Maytenus disticha,native,15,84,89,86,82,83,89,82,85
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,west,not.pum,Nothofagus pumilio,native,35,84,89,86,82,83,89,82,85
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,west,bare.gr,bare ground,NA,20,84,89,86,82,83,89,82,85
+CM,51,UN,-3876510,-7149812,12,244,1585,medium,west,cwd,coarse woody debris,NA,25,84,89,86,82,83,89,82,85
+CM,52,UN,-3876104,-7149761,18,228,1634,small,north,not.pum,Nothofagus pumilio,native,20,90,88,82,87,85,86,80,84
+CM,52,UN,-3876104,-7149761,18,228,1634,small,north,may.dis,Maytenus disticha,native,40,90,88,82,87,85,86,80,84
+CM,52,UN,-3876104,-7149761,18,228,1634,small,north,osm.chi,Osmorhiza chilensis,native,5,90,88,82,87,85,86,80,84
+CM,52,UN,-3876104,-7149761,18,228,1634,small,north,per.pre,Perezia prenanthoides,native,3,90,88,82,87,85,86,80,84
+CM,52,UN,-3876104,-7149761,18,228,1634,small,north,ade.chi,Adenocaulon chilense,native,5,90,88,82,87,85,86,80,84
+CM,52,UN,-3876104,-7149761,18,228,1634,small,north,bare.gr,bare ground,NA,27,90,88,82,87,85,86,80,84
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,may.dis,Maytenus disticha,native,50,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,not.pum,Nothofagus pumilio,native,25,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,vio.rei,Viola reichei,native,5,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,osm.chi,Osmorhiza chilensis,native,5,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,per.pre,Perezia prenanthoides,native,3,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,ade.chi,Adenocaulon chilense,native,5,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,rub.geo,Rubus geoides,native,3,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,gau.poe,Gaultheria poeppigii,native,3,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,east,rib.den,Ribes densiflorum,native,1,91,88,86,90,92,89,80,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,south,rib.den,Ribes densiflorum,native,5,94,92,93,90,91,88,92,91
+CM,52,UN,-3876104,-7149761,18,228,1634,small,south,may.dis,Maytenus disticha,native,35,94,92,93,90,91,88,92,91
+CM,52,UN,-3876104,-7149761,18,228,1634,small,south,not.pum,Nothofagus pumilio,native,40,94,92,93,90,91,88,92,91
+CM,52,UN,-3876104,-7149761,18,228,1634,small,south,ber.mic,Berberis microphylla,native,15,94,92,93,90,91,88,92,91
+CM,52,UN,-3876104,-7149761,18,228,1634,small,south,osm.chi,Osmorhiza chilensis,native,3,94,92,93,90,91,88,92,91
+CM,52,UN,-3876104,-7149761,18,228,1634,small,south,vio.rei,Viola reichei,native,2,94,92,93,90,91,88,92,91
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,not.pum,Nothofagus pumilio,native,18,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,per.pre,Perezia prenanthoides,native,17,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,osm.chi,Osmorhiza chilensis,native,20,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,may.dis,Maytenus disticha,native,20,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,rib.den,Ribes densiflorum,native,5,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,vic.nig,Vicia nigricans,native,10,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,ber.mic,Berberis microphylla,native,3,89,88,90,84,88,84,87,86
+CM,52,UN,-3876104,-7149761,18,228,1634,small,west,bare.gr,bare ground,NA,7,89,88,90,84,88,84,87,86
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,north,ber.dar,Berberis darwinii,native,22,90,91,86,92,90,91,86,91
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,north,may.dis,Maytenus disticha,native,63,90,91,86,92,90,91,86,91
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,north,als.aur,Alstroemeria aurea,native,7,90,91,86,92,90,91,86,91
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,north,gau.poe,Gaultheria poeppigii,native,4,90,91,86,92,90,91,86,91
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,north,sch.pat,Schinus patagonicus,native,4,90,91,86,92,90,91,86,91
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,east,may.dis,Maytenus disticha,native,53,93,91,86,92,93,91,86,93
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,east,dio.bra,Dioscorea brachybotrya,native,15,93,91,86,92,93,91,86,93
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,east,rib.cuc,Ribes cucullatum,native,2,93,91,86,92,93,91,86,93
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,east,bare.gr,bare ground,NA,30,93,91,86,92,93,91,86,93
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,ber.mic,Berberis microphylla,native,10,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,fra.chi,Fragaria chiloensis,native,5,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,osm.chi,Osmorhiza chilensis,native,8,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,gau.poe,Gaultheria poeppigii,native,25,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,may.dis,Maytenus disticha,native,18,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,aca.pin,Acaena pinnatifida,native,1,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,poaceae1,,native,8,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,tri.rep,Trifolium repens,exotic,1,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,south,bare.gr,bare ground,NA,24,92,93,80,68,91,93,81,64
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,not.obl,Nothofagus obliqua,native,10,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,osm.chi,Osmorhiza chilensis,native,8,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,bro.sp,Bromus sp,exotic,15,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,gau.poe,Gaultheria poeppigii,native,18,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,aca.ova,Acaena ovalifolia,native,18,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,ber.mic,Berberis microphylla,native,1,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,ros.rub,Rosa rubiginosa,exotic,5,90,87,85,93,91,85,83,92
+CM,53,UN,-3878050,-7153903,10,222,1053,medium,west,bare.gr,bare ground,NA,25,90,87,85,93,91,85,83,92
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,per.pre,Perezia prenanthoides,native,10,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,ade.chi,Adenocaulon chilense,native,5,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,may.dis,Maytenus disticha,native,40,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,rib.den,Ribes densiflorum,native,2,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,not.pum,Nothofagus pumilio,native,20,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,rub.geo,Rubus geoides,native,3,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,north,bare.gr,bare ground,NA,20,90,83,84,83,89,82,83,79
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,vio.rei,Viola reichei,native,4,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,osm.chi,Osmorhiza chilensis,native,25,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,may.dis,Maytenus disticha,native,5,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,per.pre,Perezia prenanthoides,native,5,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,ade.chi,Adenocaulon chilense,native,5,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,ber.mic,Berberis microphylla,native,1,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,east,bare.gr,bare ground,NA,55,92,85,89,88,90,81,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,may.dis,Maytenus disticha,native,3,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,ade.chi,Adenocaulon chilense,native,5,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,per.pre,Perezia prenanthoides,native,3,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,myo.obl,Myoschilos oblongum,native,3,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,osm.chi,Osmorhiza chilensis,native,1,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,cwd,coarse woody debris,NA,50,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,south,bare.gr,bare ground,NA,35,88,88,89,85,86,84,89,86
+CM,54,UN,-3875859,-7151042,22,208,1612,large,west,osm.chi,Osmorhiza chilensis,native,10,88,89,88,85,89,87,85,85
+CM,54,UN,-3875859,-7151042,22,208,1612,large,west,per.pre,Perezia prenanthoides,native,4,88,89,88,85,89,87,85,85
+CM,54,UN,-3875859,-7151042,22,208,1612,large,west,may.dis,Maytenus disticha,native,5,88,89,88,85,89,87,85,85
+CM,54,UN,-3875859,-7151042,22,208,1612,large,west,myo.obl,Myoschilos oblongum,native,1,88,89,88,85,89,87,85,85
+CM,54,UN,-3875859,-7151042,22,208,1612,large,west,bare.gr,bare ground,NA,80,88,89,88,85,89,87,85,85
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,north,may.dis,Maytenus disticha,native,75,92,90,89,90,92,86,84,89
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,north,per.pre,Perezia prenanthoides,native,15,92,90,89,90,92,86,84,89
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,north,rib.den,Ribes densiflorum,native,2,92,90,89,90,92,86,84,89
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,north,ber.mic,Berberis microphylla,native,5,92,90,89,90,92,86,84,89
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,north,osm.chi,Osmorhiza chilensis,native,2,92,90,89,90,92,86,84,89
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,north,val.lax,Valeriana laxiflora,native,1,92,90,89,90,92,86,84,89
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,east,not.pum,Nothofagus pumilio,native,25,92,90,88,88,89,90,86,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,east,per.pre,Perezia prenanthoides,native,25,92,90,88,88,89,90,86,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,east,osm.chi,Osmorhiza chilensis,native,10,92,90,88,88,89,90,86,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,east,rib.den,Ribes densiflorum,native,2,92,90,88,88,89,90,86,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,east,bare.gr,bare ground,NA,38,92,90,88,88,89,90,86,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,per.pre,Perezia prenanthoides,native,25,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,rib.den,Ribes densiflorum,native,5,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,myo.obl,Myoschilos oblongum,native,10,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,osm.chi,Osmorhiza chilensis,native,15,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,not.pum,Nothofagus pumilio,native,5,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,may.dis,Maytenus disticha,native,30,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,vio.rei,Viola reichei,native,1,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,ber.mic,Berberis microphylla,native,1,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,south,bare.gr,bare ground,NA,8,88,86,84,89,87,83,85,90
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,west,may.dis,Maytenus disticha,native,45,91,92,83,89,91,89,80,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,west,per.pre,Perezia prenanthoides,native,30,91,92,83,89,91,89,80,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,west,osm.chi,Osmorhiza chilensis,native,15,91,92,83,89,91,89,80,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,west,not.pum,Nothofagus pumilio,native,5,91,92,83,89,91,89,80,88
+CM,55,UN,-3875323,-7151824,18,180,1666,medium,west,rib.den,Ribes densiflorum,native,5,91,92,83,89,91,89,80,88
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,north,osm.chi,Osmorhiza chilensis,native,5,92,94,90,92,91,94,90,91
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,north,cwd,coarse woody debris,NA,18,92,94,90,92,91,94,90,91
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,north,bare.gr,bare ground,NA,77,92,94,90,92,91,94,90,91
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,east,osm.chi,Osmorhiza chilensis,native,10,95,93,92,93,94,92,92,93
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,east,bare.gr,bare ground,NA,90,95,93,92,93,94,92,92,93
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,south,osm.chi,Osmorhiza chilensis,native,2,95,92,93,94,95,92,93,95
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,south,bare.gr,bare ground,NA,98,95,92,93,94,95,92,93,95
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,west,chu.sp,Chusquea sp,native,6,95,93,91,92,94,92,93,92
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,west,cwd,coarse woody debris,NA,85,95,93,91,92,94,92,93,92
+CM,56,UN,-3877830,-7154216,14,192,1064,medium,west,bare.gr,bare ground,NA,9,95,93,91,92,94,92,93,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,north,chu.sp,Chusquea sp,native,60,88,89,86,90,84,87,89,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,north,rib.den,Ribes densiflorum,native,3,88,89,86,90,84,87,89,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,north,not.pum,Nothofagus pumilio,native,5,88,89,86,90,84,87,89,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,north,may.dis,Maytenus disticha,native,15,88,89,86,90,84,87,89,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,north,cwd,coarse woody debris,NA,17,88,89,86,90,84,87,89,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,east,may.dis,Maytenus disticha,native,15,90,92,90,86,69,92,84,55
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,east,chu.sp,Chusquea sp,native,70,90,92,90,86,69,92,84,55
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,east,myo.obl,Myoschilos oblongum,native,5,90,92,90,86,69,92,84,55
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,east,rib.den,Ribes densiflorum,native,5,90,92,90,86,69,92,84,55
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,east,gau.poe,Gaultheria poeppigii,native,5,90,92,90,86,69,92,84,55
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,myo.obl,Myoschilos oblongum,native,5,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,not.pum,Nothofagus pumilio,native,15,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,chu.sp,Chusquea sp,native,60,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,may.dis,Maytenus disticha,native,15,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,ade.chi,Adenocaulon chilense,native,1,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,ber.ser,Berberis serratodentata,native,3,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,south,per.pre,Perezia prenanthoides,native,1,89,91,93,94,89,91,92,92
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,west,may.dis,Maytenus disticha,native,15,93,85,93,87,88,87,92,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,west,chu.sp,Chusquea sp,native,70,93,85,93,87,88,87,92,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,west,myo.obl,Myoschilos oblongum,native,5,93,85,93,87,88,87,92,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,west,ade.chi,Adenocaulon chilense,native,5,93,85,93,87,88,87,92,87
+CM,57,UN,-3875604,-7149588,10,20,1599,medium,west,ber.ser,Berberis serratodentata,native,5,93,85,93,87,88,87,92,87
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,val.lax,Valeriana laxiflora,native,5,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,ade.chi,Adenocaulon chilense,native,5,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,chu.sp,Chusquea sp,native,65,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,per.pre,Perezia prenanthoides,native,5,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,chl.sp,Orquidea,native,3,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,not.pum,Nothofagus pumilio,native,15,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,north,osm.chi,Osmorhiza chilensis,native,2,92,90,60,90,91,89,76,85
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,may.dis,Maytenus disticha,native,25,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,ade.chi,Adenocaulon chilense,native,5,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,ber.mic,Berberis microphylla,native,5,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,rib.den,Ribes densiflorum,native,4,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,vio.rei,Viola reichei,native,3,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,val.lax,Valeriana laxiflora,native,3,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,aca.ova,Acaena ovalifolia,native,4,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,per.pre,Perezia prenanthoides,native,3,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,osm.chi,Osmorhiza chilensis,native,3,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,east,chu.sp,Chusquea sp,native,45,87,87,88,87,90,90,89,86
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,not.pum,Nothofagus pumilio,native,60,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,chu.sp,Chusquea sp,native,20,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,may.dis,Maytenus disticha,native,5,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,ber.ser,Berberis serratodentata,native,5,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,vio.rei,Viola reichei,native,2,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,ade.chi,Adenocaulon chilense,native,2,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,per.pre,Perezia prenanthoides,native,3,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,south,rib.den,Ribes densiflorum,native,3,86,89,82,88,91,88,72,83
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,may.dis,Maytenus disticha,native,20,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,rib.den,Ribes densiflorum,native,2,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,ber.ser,Berberis serratodentata,native,5,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,per.pre,Perezia prenanthoides,native,2,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,not.pum,Nothofagus pumilio,native,30,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,vio.rei,Viola reichei,native,2,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,val.lax,Valeriana laxiflora,native,2,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,ade.chi,Adenocaulon chilense,native,2,89,88,89,93,91,83,91,93
+CM,58,UN,-3873384,-7151050,40,186,1509,medium,west,chu.sp,Chusquea sp,native,35,89,88,89,93,91,83,91,93
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,north,may.dis,Maytenus disticha,native,2,92,93,88,91,92,92,90,91
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,north,pse.men,Pseudotsuga menziesii,exotic,5,92,93,88,91,92,92,90,91
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,north,chu.sp,Chusquea sp,native,15,92,93,88,91,92,92,90,91
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,north,osm.chi,Osmorhiza chilensis,native,8,92,93,88,91,92,92,90,91
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,north,bare.gr,bare ground,NA,70,92,93,88,91,92,92,90,91
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,east,chu.sp,Chusquea sp,native,32,94,92,92,92,94,91,91,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,east,not.alp,Nothofagus alpina,native,20,94,92,92,92,94,91,91,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,east,ber.dar,Berberis darwinii,native,2,94,92,92,92,94,91,91,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,east,may.dis,Maytenus disticha,native,1,94,92,92,92,94,91,91,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,east,bare.gr,bare ground,NA,45,94,92,92,92,94,91,91,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,south,may.dis,Maytenus disticha,native,20,95,95,93,92,95,94,92,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,south,chu.sp,Chusquea sp,native,35,95,95,93,92,95,94,92,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,south,cwd,coarse woody debris,NA,25,95,95,93,92,95,94,92,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,south,bare.gr,bare ground,NA,20,95,95,93,92,95,94,92,92
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,west,not.alp,Nothofagus alpina,native,30,94,94,91,93,93,92,93,93
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,west,sch.pat,Schinus patagonicus,native,8,94,94,91,93,93,92,93,93
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,west,may.dis,Maytenus disticha,native,5,94,94,91,93,93,92,93,93
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,west,rib.mag,Ribes magellanicum,native,2,94,94,91,93,93,92,93,93
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,west,cwd,coarse woody debris,NA,30,94,94,91,93,93,92,93,93
+CM,59,UN,-3877708,-7154269,20,212,1104,medium,west,bare.gr,bare ground,NA,25,94,94,91,93,93,92,93,93
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,ade.chi,Adenocaulon chilense,native,4,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,may.dis,Maytenus disticha,native,4,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,chu.sp,Chusquea sp,native,40,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,per.pre,Perezia prenanthoides,native,4,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,osm.chi,Osmorhiza chilensis,native,5,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,vio.rei,Viola reichei,native,4,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,myo.obl,Myoschilos oblongum,native,4,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,north,cwd,coarse woody debris,NA,35,93,93,89,91,90,87,85,91
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,per.pre,Perezia prenanthoides,native,5,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,osm.chi,Osmorhiza chilensis,native,20,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,may.dis,Maytenus disticha,native,15,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,gal.sp,Galium sp,native,1,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,vio.rei,Viola reichei,native,3,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,rib.den,Ribes densiflorum,native,3,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,east,chu.sp,Chusquea sp,native,53,94,91,91,92,94,94,93,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,chu.sp,Chusquea sp,native,40,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,osm.chi,Osmorhiza chilensis,native,10,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,vio.rei,Viola reichei,native,3,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,may.dis,Maytenus disticha,native,10,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,ade.chi,Adenocaulon chilense,native,3,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,per.pre,Perezia prenanthoides,native,5,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,myo.obl,Myoschilos oblongum,native,4,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,south,cwd,coarse woody debris,NA,25,94,93,78,89,92,93,66,87
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,may.dis,Maytenus disticha,native,10,93,94,92,91,91,89,84,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,per.pre,Perezia prenanthoides,native,5,93,94,92,91,91,89,84,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,chu.sp,Chusquea sp,native,35,93,94,92,91,91,89,84,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,not.pum,Nothofagus pumilio,native,40,93,94,92,91,91,89,84,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,osm.chi,Osmorhiza chilensis,native,2,93,94,92,91,91,89,84,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,ara.ara,Araucaria araucana,native,3,93,94,92,91,91,89,84,90
+CM,60,UN,-3874679,-7149867,16,180,1554,large,west,bare.gr,bare ground,NA,5,93,94,92,91,91,89,84,90

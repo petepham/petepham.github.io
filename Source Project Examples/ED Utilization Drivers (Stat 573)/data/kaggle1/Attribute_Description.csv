@@ -1,0 +1,75 @@
+Attribute,Type ,Description
+SID,STR,Patient Unique ID
+Year,STR,Patient Record Year
+Age,INT,Patient Age
+Race,STR,Patient Race
+Sex,STR,Patient Gender
+State,STR,Name of the State
+Zip Code,INT,ZIP code of patients residence 
+MSA,INT,Metropolitan Statistical Area Code
+Enrollment Type Categorized,INT,Type of enrollment 
+Enrollment Months,INT,No of months patient was enrolled
+HCC Score,FLOAT,HCC Risk score of patient
+Avg. LOS,FLOAT,Average length of stay at hospital
+Diagnosis,INT,Number of diagnosis in a year
+# Total Claims,INT,Total number of claims
+# Hospital OP,INT,Number of hospital outpatient visits
+# All Physician OP,INT,Number of physicians visits
+# Inpatient,INT,Number of inpatient visits
+# Short Term Stay Hospital,INT,Number of short term stay visits
+# Long Term Stay Hospital,INT,Number of long term stay visits
+# Rehabilitation Hospital,INT,Number of rehabilitation visits
+# Psychiatric Hospital,INT,Number of psychiatric hospital visits
+# Readmissions,INT,Number of hospital readmission
+% Readmissions,INT,Percentage of readmission
+# ER,INT,Number of emergency visits
+# ER Admissions,INT,Number of emergency admission
+# SNF,INT,Number of skilled nursing facility visits
+# Non Swing Bed SNF Claim,INT,Number of non swing bed snf visits
+# Swing Bed SNF Claim,INT,Number of swing bed snf visits
+# Home Health,INT,Number of Homehealth visits
+# Hospice,INT,Number of Hospice visits
+# Labs,INT,Number of labs done
+# Part B Labs,INT,Number of part b labs 
+# Imaging,INT,Number of times medical imaging done
+# Part B Imaging,INT,Number of part b imaging
+# Part B E&M,INT,Number of part b E&M tests
+# Part B Drugs,INT,Number of part b Drugs tests
+# Part B Ambulance,INT,Number of  times part b ambulatory service taken
+# Dialysis,INT,Number of dialysis done
+# Part-B Dialysis,INT,Number of part b dialysis done
+# Rx Claims,INT,Number of Rx claims
+# DME,INT,Number of DME
+# Miscellaneous,INT,Number of miscellaneous visits
+TotalCost_Y_Actual,FLOAT,Total actual cost of patient for next year 
+TotalCost_Y_Expected,FLOAT,Total expected 12 month cost of patient. This feature is dependant upon TotalCost_Y_Actual and Enrollment months.
+,,
+,,
+Medication Data,,
+,,
+Attribute,Type ,Description
+SID,STR,Patient Unique ID
+Year,STR,Patient Record Year
+dapagliflozin,BOOL,Did the patient take dapagliflozin
+exenatide,BOOL,Did the patient take exenatide
+glimepiride,BOOL,Did the patient take glimepiride
+glyburide and metformin hydrochloride,BOOL,Did  the patient take glyburide and metformin hydrochloride
+insulin,BOOL,Did the patient take insulin
+metformin hydrochloride,BOOL,Did  the patient take metformin hydrochloride
+pioglitazone,BOOL,Did the patient take pioglitazone
+sitagliptin and metformin hydrochloride,BOOL,Did  the patient take sitagliptin and metformin hydrochloride
+,,
+,,
+Socio Economics Data,,
+,,
+Attribute,Type ,Description
+SID,STR,Patient Unique ID
+Year,STR,Patient Record Year
+SVI1,FLOAT,Percentile ranking for Socioeconomic Status theme summary
+SVI3,FLOAT,Percentile ranking for Racial and Ethnic Minority Status theme
+SVI4,FLOAT,Percentile ranking for Housing Type/ Transportation theme
+SVI,FLOAT,Overall percentile ranking
+MDI,FLOAT,Multidimensional Deprivation Index
+Avg ADI,FLOAT,Average of Countys' Area Deprivation Index for a ZIP Code
+Max ADI,FLOAT,Max of Countys' Area Deprivation Index for a ZIP Code
+Min ADI,FLOAT,Min of Countys' Area Deprivation Index for a ZIP Code

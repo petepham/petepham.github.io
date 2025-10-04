@@ -1,0 +1,1407 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\usepackage{setspace}
+% this is a lorem ipsum generator for adding dummy texts
+\usepackage{lipsum}
+\usepackage{tocloft}
+% to make the first rows bold in tables
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{booktabs}
+% this makes list of figures appear in table of contents
+\usepackage[nottoc]{tocbibind}
+
+% for passing temporary notes
+\usepackage{todonotes}
+
+\usepackage{morefloats}
+\usepackage{float}
+
+% highlighting
+\usepackage{soul}
+\usepackage{hyperref}
+% referencing mutliple things with a single command - \cref
+\usepackage{cleveref}
+
+
+% this makes dots in table of contents
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+% to change the title of contents
+% \renewcommand{\contentsname}{Whatever}
+
+% line numbers for review purposes
+% this package might not be available in default latex installation 
+% get it by 'sudo tlmgr install lineno'
+%\usepackage{lineno}
+%\linenumbers
+
+% this allows checkmarks in the file
+\usepackage{amssymb}
+\DeclareUnicodeCharacter{2714}{\checkmark}
+
+% to be able to include latex comments
+\newenvironment{dummy}{}{}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+
+\onehalfspacing
+\pagenumbering{gobble}
+
+%\begin{titlepage}
+\begin{center}
+\LARGE{\textbf{Comparing Bootstrap-t and Parametric Confidence Intervals for the Estimated Mean of Emergency Department Visits}}\\
+\vspace*{5\baselineskip}
+\normalsize{Bingtang Huang}\\
+\normalsize{Pete Pham}\\
+\vspace*{5\baselineskip}
+\normalsize{Portland State University}\\
+\normalsize{Stat 573 Final Project}\\
+\normalsize{Dr. Jong Kim}\\
+\normalsize{December 4th, 2024}\\
+\vspace*{2\baselineskip}
+\vspace*{3\baselineskip}
+\vspace*{2\baselineskip}
+
+
+\vspace*{1\baselineskip}
+
+\vspace*{1\baselineskip}
+
+\end{center}
+% \end{titlepage}
+
+\newpage
+
+\section{I. Introduction}\label{i.-introduction}
+
+\textbf{Background}
+
+Diabetes rates among adults has been steadily increasing for the past
+decade. It is estimated that in the next 10 years, the number of
+diabetic adults in the world will increase by approximately
+20\%\footnote{\emph{IDF Diabetes Atlas, 10th Edition} (2021)}. According
+to the Centers for Disease Control (CDC), 9\% of the US adult population
+have been diagnosed with diabetes while nearly 30\% of adults have an
+official diagnosis of pre-diabetes\footnote{\emph{National Diabetes
+  Statistics Report} (2024)}. The same CDC report lists diabetes as the
+eighth leading cause of death in 2022 and points to the disease as the
+primary cause of 103,294 deaths.
+
+An economic study examining the cost of diabetes estimates that nearly 1
+in 4 health care dollars spent is spent on diabetes\footnote{Bannuru
+  (2023)}. Additionally, Parker et al.~conclude that people diagnosed
+with diabetes have medical expenditures 2.6 times higher than those
+without the condition.
+
+If not managed in a timely manner, diabetes can lead to long-term
+chronic illnesses and comorbidities, increasing both morbidity and
+healthcare costs. The long-term nature of the disease have drawn
+attention from government agencies and public health organizations
+aiming to reduce the strain on overburdened healthcare systems. One
+strategy is to reduce emergency department utilization by increasing
+outpatient engagement with primary care and specialty physicians. Higher
+engagement with outpatient settings is thought to provide better avenues
+for preventative care and reduction in preventable ED visits.
+
+\textbf{Purpose}
+
+Type II diabetes can be prevented or managed through lifestyle
+change\footnote{Stephanie M Gruss (2019)}. However, diabetes is
+generally estimated to be underdiagnosed. In resource-limited public
+health settings, interventionalists often relay on established
+parametric methods to estimate population parameters (e.g.~mean ED
+visits, prescriptions, cost, etc). Bootstrapping offers a nonparametric
+alternative, providing robust estimates for population estimators
+without requiring assumptions or prior knowledge of the underlying
+population distribution.
+
+This paper seeks to compare 95\% CIs for the mean number of ER visits
+using normal, Poisson, and bootstrap-t approaches for both high and low
+outpatient (OP) visit groups. We look to evaluate the merits of each
+approach.
+
+\newpage
+
+\section{II. Data}\label{ii.-data}
+
+\textbf{Population of Interest}
+
+In this case, our data comes from a well-defined natural population:
+Medicare-enrolled members with a diabetes diagnosis. Though there is
+some shift in year-to-year enrollment, Medicare eligibility has been
+fairly consistent over many decades. Approaching this data from an
+experiment sense, we are interested in the two prospective populations.
+Specifically:
+
+\begin{itemize}
+\item
+  Medicare Diabetic Population → Treatment A: Higher Outpatient (OP)
+  Visits → Prospective Population A
+\item
+  Medicare Diabetic Population → Treatment B: Low Outpatient (OP) Visits
+  → Prospective Population B
+\end{itemize}
+
+We are interested to know if more outpatient visits are an influencing
+factor on the count of ER visits.
+
+\textbf{Sample}
+
+Our dataset contains a random sample of 131 diabetes patients who
+received medical treatment for diabetes at a hospital system in 2005. Of
+those patients, 57 patients were categorized as having high engagement
+(\textgreater=14 visits) and 74 patients were categorized as low
+engagement(\textless14 visits).
+
+The table below provides a descriptive summary of the sample set:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2289}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1807}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1566}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1928}}
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2410}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Engagement Group
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\# of Patients
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\# ER Visits
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Mean ER Visits
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Variance ER Visits
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+High OP Engagement & 57 & 110 & 1.930 & 5.531 \\
+Low OP Engagmeent & 74 & 86 & 1.162 & 3.864 \\
+\end{longtable}
+
+In the table above, patients with high OP engagement, though fewer in
+number, have a higher total (110 vs.~86) and mean (1.929 vs.~1.162) of
+ER visits. The high OP group also has a higher variance in ER visits.
+Additionally, the low OP group shows more extreme values in ER visits,
+with a greater range of 11, compared to 8 in the high OP group.
+
+\includegraphics[width=0.5\linewidth]{Project-copy_files/figure-latex/figures-side-1}
+\includegraphics[width=0.5\linewidth]{Project-copy_files/figure-latex/figures-side-2}
+
+The histograms, above, show that the low PCP visit group is more
+clustered around lower counts of ER visits with a few extreme higher
+values. In comparison, the high OP group is slightly more distributed
+along its range. At face value, the highly engaged group has a higher
+mean number of ER visits. This goes against conventional understanding
+of primary care engagement and has a myriad of explanations. This could
+potentially be skewed due to the needs of complex patients inherently
+requiring more attention. This will be further discussed later in this
+paper.
+
+\section{III. Methods}\label{iii.-methods}
+
+Count data is commonly recorded in the healthcare settings. These data
+are typically skewed right with high frequencies of zero counts. Our ER
+Visit attribute is an excellent example of this (see histogram above).
+In fast paced public health settings, many administators commonly
+default to parametric methods without consideration for distribution
+specific assumptions. For this reason, we'll compare the normal,
+Poisson, and bootstrap-t 95\% confidence intervals for an estimated
+population mean.
+
+Normal distribution based approaches are exceptionally common when it
+comes to evaluating health care data (e.g.~lean six sigma). It's
+application for our data set is not appropriate as our data is
+asymmetrical, discrete, and heavily skewed. However, it is still often
+used as a first step given its ubiquity in many healthcare programs.
+Here, we can define a normal-based, 95\% confidence interval for a
+population mean estimate:
+
+\textbf{Normal Distribution Confidence Interval}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\bar{x} \pm 1.96 * \sqrt{\sigma^2/n}\)
+\end{itemize}
+
+Our data does have a shape resembling a Poisson distribution cdf at
+\(\lambda = 0.5\). Since many hospital-recorded attributes are discrete
+count data (e.g.~visit count, number of medications, etc), it's common
+to see Poisson or binomial-based methods to estimate parameters. For our
+example here, we'll use the Poisson distribution where the parameter
+\(\hat{\lambda} = \bar{x} = \sigma\). This is not the case in our data
+as our mean and variance are not equal for both OP groups. Although our
+data may resemble a Poisson distribution, it is clear that all of the
+assumptions are not met and would serve as an approximation, instead.
+
+\textbf{Poisson Distribution Confidence Interval}
+
+\begin{itemize}
+\tightlist
+\item
+  Assumption: \(\lambda = \mu = \sigma^2\)
+\item
+  \(\hat{\lambda} \pm 1.96* \sqrt{\hat{\lambda/n}}\)
+\end{itemize}
+
+Finally, we will use a non-parametric boostrap-t approach to estimate a
+95\% confidence interval. Examining the histograms from above, it
+appears that our data would be an excellent fit for a trimmed mean.
+Especially since we are concerned with the most central values of ER
+visits as it relates to OP visits. We will be finding our interval
+around a 20\% trimmed mean. CDC figures estimate that around 38.1
+million adults had diabetes in 2021(\emph{National Diabetes Statistics
+Report} 2024). From this, it can be determined that our population is
+sufficiently large as:
+
+\begin{itemize}
+\tightlist
+\item
+  \(C = (N/n) = (38.1 million / 131) > 20\)
+\end{itemize}
+
+This also means that we will be resampling with replacement in our
+bootstrap-t process. We will be finding the lower and upper bounds for
+our bootstrap-t method as follows:
+
+\textbf{Bootstrap-t 95\% Confidence Interval}
+
+\begin{itemize}
+\item
+  Lower Bound: \(t - F_{t(t*)}^{-1}(0.975)*\hat{SE}(t)\)
+\item
+  Upper Boundc: \(t - F_{t(t*)}^{-1}(0.025)*\hat{SE}(t)\)
+\end{itemize}
+
+Where \(t\) is our trimmed sample mean, \(F_{t(t*)}^{-1}\) is the
+inverse CDF, and \(\hat{SE}(t)\) is the explicit standard error of our
+trimmed mean. We set \(\alpha = 0.05\).
+
+Here, we will resample with B=1000 replications and will be obtaining
+our confidence interval for a trimmed mean (\(\gamma = 0.20\)). In our
+approach, we want to capture the most central number of ED visits.
+Patients who are complex are likely to overutilize while many patients
+with no ER visits may be under engaged in the healthcare system anyways
+(e.g.~younger, healthier patients). We are primarily concerned with the
+central values. Our trimmed mean will take the form:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\bar{x}_{i,\gamma} = (\frac{1}{n-2g})\sum_{i=g+1}^{(n-g)}x[i]\)
+\end{itemize}
+
+Since we are choosing to trim the data, we will also employ
+winsorization to replace the values that we are removing on either end
+of our data set:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For either end of our ascending-sorted data, we remove \((n*\gamma)\)
+  values.
+\item
+  For the lower end, we take the \(x_{[n*\gamma + 1]}\) value and
+  replicate this \(n*\gamma\) times.
+\item
+  For the upper end, we take the \(x_{[n-(n*\gamma)]}\) value and
+  replicate this \(n*\gamma\) times.
+\end{enumerate}
+
+We carry out these procedures for both the high and low OP groups. Due
+to the winsorization, the range of new data set will still contain \(n\)
+values, but will be much more compact in comparison as we have removed
+some of the extreme values. However, since our data contains high
+0-counts, the left ends remain unchange -- the zeroes are just replaced
+when we conduct our lower end winsorization. Additionally, since we are
+changing the data, we lose any advantages in population inference as we
+lose the randomness of our original sample.
+
+\section{IV. Results}\label{iv.-results}
+
+The results from our comparison can be seen in the table below:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Non{-}trimmed mean}
+\NormalTok{tmuhat.high.nt }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high)}
+\NormalTok{var.t.high.nt }\OtherTok{=} \FunctionTok{var}\NormalTok{(high)}
+\NormalTok{den.high.nt }\OtherTok{=} \FunctionTok{length}\NormalTok{(high)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{longtable}[t]{lcccc}
+\toprule
+Method & Group & Sample Mean & 95\% CI & Interval Range\\
+\midrule
+Normal & High OP Visits & 1.930 & {}[1.314, 2.546] & 1.232\\
+Poisson & High OP Visits & 1.930 & {}[1.566, 2.294] & 0.728\\
+Bootstrap-t & High OP Visits & 1.930 & {}[1.281, 2.509] & 1.228\\
+Bootstrap-t, 20\% Trimmed Mean & High OP Visits & 1.257 & {}[0.719, 1.824] & 1.105\\
+\midrule
+Normal & Low OP Visits & 1.162 & {}[0.711, 1.613] & 0.902\\
+\addlinespace
+Poisson & Low OP Visits & 1.162 & {}[0.915, 1.409] & 0.494\\
+Bootstrap-t & Low OP Visits & 1.162 & {}[0.676, 1.595] & 0.919\\
+Bootstrap-t, 20\% Trimmed Mean & Low OP Visits & 0.587 & {}[0.405, 0.826] & 0.421\\
+\bottomrule
+\end{longtable}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\#\#\#\# p{-}values \#\#\#\#\#}
+
+\CommentTok{\# normal/t{-}tests}
+\FunctionTok{t.test}\NormalTok{(high, low, }\AttributeTok{var.equal =} \ConstantTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Welch Two Sample t-test
+## 
+## data:  high and low
+## t = 1.9871, df = 108.4, p-value = 0.04943
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  0.001942487 1.533382312
+## sample estimates:
+## mean of x mean of y 
+##  1.929825  1.162162
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# poisson}
+\FunctionTok{poisson.test}\NormalTok{(}
+    \FunctionTok{c}\NormalTok{(}\FunctionTok{sum}\NormalTok{(high }\SpecialCharTok{\textgreater{}} \DecValTok{0}\NormalTok{), }\FunctionTok{sum}\NormalTok{(high }\SpecialCharTok{==} \DecValTok{0}\NormalTok{)),}
+    \FunctionTok{c}\NormalTok{(}\FunctionTok{sum}\NormalTok{(low }\SpecialCharTok{\textgreater{}} \DecValTok{0}\NormalTok{), }\FunctionTok{sum}\NormalTok{(low }\SpecialCharTok{==} \DecValTok{0}\NormalTok{)),}
+    \AttributeTok{alternative =} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}two.sided\textquotesingle{}}\NormalTok{)}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+##  Comparison of Poisson rates
+## 
+## data:  c(sum(high > 0), sum(high == 0)) time base: c(sum(low > 0), sum(low == 0))
+## count1 = 34, expected count1 = 27.73, p-value = 0.1117
+## alternative hypothesis: true rate ratio is not equal to 1
+## 95 percent confidence interval:
+##  0.892731 2.774295
+## sample estimates:
+## rate ratio 
+##   1.560386
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# bootstrap t}
+\NormalTok{t.stat }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high)}\SpecialCharTok{{-}}\FunctionTok{mean}\NormalTok{(low)}
+\NormalTok{se.t }\OtherTok{=} \FunctionTok{sqrt}\NormalTok{(}
+\NormalTok{    (}\FunctionTok{var}\NormalTok{(high)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(high))}\SpecialCharTok{+}
+\NormalTok{    (}\FunctionTok{var}\NormalTok{(low)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(low))}
+\NormalTok{)}
+\NormalTok{to.t }\OtherTok{=}\NormalTok{ (t.stat }\SpecialCharTok{{-}} \DecValTok{0}\NormalTok{)}\SpecialCharTok{/}\NormalTok{se.t}
+\FunctionTok{c}\NormalTok{(t.stat, se.t, to.t)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.7676624 0.3863195 1.9871180
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{bootstrap.t }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, y, B) \{}
+\NormalTok{    df.outputs }\OtherTok{=} \FunctionTok{data.frame}\NormalTok{(}\FunctionTok{matrix}\NormalTok{(}\AttributeTok{ncol =} \DecValTok{2}\NormalTok{, }\AttributeTok{nrow =}\NormalTok{ B))}
+    \FunctionTok{names}\NormalTok{(df.outputs) }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}t.stars\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}to.tstars\textquotesingle{}}\NormalTok{)}
+
+    \CommentTok{\# bootstrap}
+    \ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\NormalTok{B) \{}
+\NormalTok{        sample1 }\OtherTok{=} \FunctionTok{sample}\NormalTok{(x, }\FunctionTok{length}\NormalTok{(x), }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+\NormalTok{        sample2 }\OtherTok{=} \FunctionTok{sample}\NormalTok{(y, }\FunctionTok{length}\NormalTok{(y), }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+
+        \CommentTok{\# find to(t*)}
+\NormalTok{        t.star }\OtherTok{=} \FunctionTok{mean}\NormalTok{(sample1) }\SpecialCharTok{{-}} \FunctionTok{mean}\NormalTok{(sample2)}
+\NormalTok{        se.tstar }\OtherTok{=} \FunctionTok{sqrt}\NormalTok{(}
+\NormalTok{            (}\FunctionTok{var}\NormalTok{(sample1)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(sample1)) }\SpecialCharTok{+} 
+\NormalTok{            (}\FunctionTok{var}\NormalTok{(sample2)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(sample2))}
+\NormalTok{        )}
+\NormalTok{        to.tstar }\OtherTok{=}\NormalTok{ (t.star }\SpecialCharTok{{-}}\NormalTok{ t.stat)}\SpecialCharTok{/}\NormalTok{se.tstar}
+
+        \CommentTok{\# store}
+\NormalTok{        df.outputs}\SpecialCharTok{$}\NormalTok{t.stars[i] }\OtherTok{=}\NormalTok{ t.star}
+\NormalTok{        df.outputs}\SpecialCharTok{$}\NormalTok{to.tstars[i] }\OtherTok{=}\NormalTok{ to.tstar}
+\NormalTok{    \}}
+
+    \CommentTok{\# /Shoiw Results}
+    \FunctionTok{return}\NormalTok{(df.outputs)}
+\NormalTok{\}}
+
+\NormalTok{output }\OtherTok{=} \FunctionTok{bootstrap.t}\NormalTok{(high, low, }\DecValTok{2000}\NormalTok{)}
+\FunctionTok{sum}\NormalTok{(output}\SpecialCharTok{$}\NormalTok{to.tstars }\SpecialCharTok{\textgreater{}}\NormalTok{ to.t)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 38
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{out.tail }\OtherTok{=} \FunctionTok{sum}\NormalTok{(output}\SpecialCharTok{$}\NormalTok{to.tstars }\SpecialCharTok{\textgreater{}}\NormalTok{ to.t)}
+\NormalTok{out.pval }\OtherTok{=}\NormalTok{ out.tail}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(output}\SpecialCharTok{$}\NormalTok{to.tstars)}
+\FunctionTok{c}\NormalTok{(out.tail, out.pval)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 38.000  0.019
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# library boot}
+\FunctionTok{library}\NormalTok{(boot)}
+
+\NormalTok{s }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high) }\SpecialCharTok{{-}} \FunctionTok{mean}\NormalTok{(low)}
+
+\NormalTok{scores }\OtherTok{=} \FunctionTok{c}\NormalTok{(high, low)}
+\NormalTok{group }\OtherTok{=} \FunctionTok{c}\NormalTok{(}
+    \FunctionTok{rep}\NormalTok{(}\StringTok{\textquotesingle{}high\textquotesingle{}}\NormalTok{,}\DecValTok{57}\NormalTok{),}
+    \FunctionTok{rep}\NormalTok{(}\StringTok{\textquotesingle{}low\textquotesingle{}}\NormalTok{,}\DecValTok{74}\NormalTok{)}
+\NormalTok{)}
+
+\NormalTok{df }\OtherTok{=} \FunctionTok{data.frame}\NormalTok{(group, scores)}
+\NormalTok{df}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##     group scores
+## 1    high      0
+## 2    high      0
+## 3    high      0
+## 4    high      0
+## 5    high      0
+## 6    high      0
+## 7    high      0
+## 8    high      0
+## 9    high      0
+## 10   high      0
+## 11   high      0
+## 12   high      0
+## 13   high      0
+## 14   high      0
+## 15   high      0
+## 16   high      0
+## 17   high      0
+## 18   high      0
+## 19   high      0
+## 20   high      0
+## 21   high      0
+## 22   high      0
+## 23   high      0
+## 24   high      1
+## 25   high      1
+## 26   high      1
+## 27   high      1
+## 28   high      1
+## 29   high      1
+## 30   high      1
+## 31   high      1
+## 32   high      1
+## 33   high      1
+## 34   high      2
+## 35   high      2
+## 36   high      2
+## 37   high      2
+## 38   high      2
+## 39   high      2
+## 40   high      2
+## 41   high      2
+## 42   high      3
+## 43   high      3
+## 44   high      4
+## 45   high      4
+## 46   high      4
+## 47   high      4
+## 48   high      5
+## 49   high      5
+## 50   high      5
+## 51   high      5
+## 52   high      6
+## 53   high      6
+## 54   high      7
+## 55   high      7
+## 56   high      8
+## 57   high      8
+## 58    low      0
+## 59    low      0
+## 60    low      0
+## 61    low      0
+## 62    low      0
+## 63    low      0
+## 64    low      0
+## 65    low      0
+## 66    low      0
+## 67    low      0
+## 68    low      0
+## 69    low      0
+## 70    low      0
+## 71    low      0
+## 72    low      0
+## 73    low      0
+## 74    low      0
+## 75    low      0
+## 76    low      0
+## 77    low      0
+## 78    low      0
+## 79    low      0
+## 80    low      0
+## 81    low      0
+## 82    low      0
+## 83    low      0
+## 84    low      0
+## 85    low      0
+## 86    low      0
+## 87    low      0
+## 88    low      0
+## 89    low      0
+## 90    low      0
+## 91    low      0
+## 92    low      0
+## 93    low      0
+## 94    low      0
+## 95    low      0
+## 96    low      1
+## 97    low      1
+## 98    low      1
+## 99    low      1
+## 100   low      1
+## 101   low      1
+## 102   low      1
+## 103   low      1
+## 104   low      1
+## 105   low      1
+## 106   low      1
+## 107   low      1
+## 108   low      1
+## 109   low      1
+## 110   low      1
+## 111   low      1
+## 112   low      1
+## 113   low      2
+## 114   low      2
+## 115   low      2
+## 116   low      2
+## 117   low      2
+## 118   low      2
+## 119   low      2
+## 120   low      2
+## 121   low      2
+## 122   low      2
+## 123   low      3
+## 124   low      3
+## 125   low      4
+## 126   low      4
+## 127   low      4
+## 128   low      5
+## 129   low      7
+## 130   low      8
+## 131   low     11
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{colnames}\NormalTok{(df)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "group"  "scores"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mean.diff }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, i) \{}
+    \FunctionTok{return}\NormalTok{(}
+        \FunctionTok{mean}\NormalTok{(x}\SpecialCharTok{$}\NormalTok{scores[group }\SpecialCharTok{==} \StringTok{\textquotesingle{}high\textquotesingle{}}\NormalTok{][i], }\AttributeTok{na.rm =} \ConstantTok{TRUE}\NormalTok{) }\SpecialCharTok{{-}} \FunctionTok{mean}\NormalTok{(x}\SpecialCharTok{$}\NormalTok{scores[group }\SpecialCharTok{==} \StringTok{\textquotesingle{}low\textquotesingle{}}\NormalTok{][i], }\AttributeTok{na.rm =} \ConstantTok{TRUE}\NormalTok{)}
+\NormalTok{    )}
+\NormalTok{\}}
+\NormalTok{just.mean }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, i) \{}
+    \FunctionTok{return}\NormalTok{(}\FunctionTok{mean}\NormalTok{(x[i]))}
+\NormalTok{\}}
+
+\NormalTok{boot.high }\OtherTok{=} \FunctionTok{boot}\NormalTok{(high, just.mean, }\AttributeTok{R =} \DecValTok{1000}\NormalTok{)}
+\FunctionTok{boot.ci}\NormalTok{(}
+\NormalTok{    boot.high,}
+    \FunctionTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{, .}\DecValTok{96}\NormalTok{, .}\DecValTok{97}\NormalTok{, .}\DecValTok{98}\NormalTok{, .}\DecValTok{99}\NormalTok{),}
+    \StringTok{\textquotesingle{}bca\textquotesingle{}}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+## Based on 1000 bootstrap replicates
+## 
+## CALL : 
+## boot.ci(boot.out = boot.high, conf = c(0.95, 0.96, 0.97, 0.98, 
+##     0.99), type = "bca")
+## 
+## Intervals : 
+## Level       BCa          
+## 95%   ( 1.404,  2.561 )   
+## 96%   ( 1.382,  2.596 )   
+## 97%   ( 1.361,  2.649 )   
+## 98%   ( 1.333,  2.733 )   
+## 99%   ( 1.261,  2.829 )  
+## Calculations and Intervals on Original Scale
+## Some BCa intervals may be unstable
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{boot.low }\OtherTok{=} \FunctionTok{boot}\NormalTok{(low, just.mean, }\AttributeTok{R=}\DecValTok{1000}\NormalTok{)}
+\FunctionTok{boot.ci}\NormalTok{(}
+\NormalTok{    boot.low,}
+    \FunctionTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{, .}\DecValTok{96}\NormalTok{, .}\DecValTok{97}\NormalTok{, .}\DecValTok{98}\NormalTok{, .}\DecValTok{99}\NormalTok{),}
+    \StringTok{\textquotesingle{}bca\textquotesingle{}}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in norm.inter(t, adj.alpha): extreme order statistics used as endpoints
+\end{verbatim}
+
+\begin{verbatim}
+## BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+## Based on 1000 bootstrap replicates
+## 
+## CALL : 
+## boot.ci(boot.out = boot.low, conf = c(0.95, 0.96, 0.97, 0.98, 
+##     0.99), type = "bca")
+## 
+## Intervals : 
+## Level       BCa          
+## 95%   ( 0.801,  1.730 )   
+## 96%   ( 0.784,  1.757 )   
+## 97%   ( 0.770,  1.817 )   
+## 98%   ( 0.749,  1.930 )   
+## 99%   ( 0.710,  2.338 )  
+## Calculations and Intervals on Original Scale
+## Warning : BCa Intervals used Extreme Quantiles
+## Some BCa intervals may be unstable
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{boot.out }\OtherTok{=} \FunctionTok{boot}\NormalTok{(df, mean.diff, }\AttributeTok{R=}\DecValTok{1000}\NormalTok{)}
+
+\FunctionTok{boot.ci}\NormalTok{(}
+\NormalTok{    boot.out,}
+    \FunctionTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{, .}\DecValTok{96}\NormalTok{, .}\DecValTok{97}\NormalTok{, .}\DecValTok{98}\NormalTok{, .}\DecValTok{99}\NormalTok{),}
+    \StringTok{\textquotesingle{}bca\textquotesingle{}}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+## Based on 1000 bootstrap replicates
+## 
+## CALL : 
+## boot.ci(boot.out = boot.out, conf = c(0.95, 0.96, 0.97, 0.98, 
+##     0.99), type = "bca")
+## 
+## Intervals : 
+## Level       BCa          
+## 95%   ( 0.0713,  1.4303 )   
+## 96%   ( 0.0281,  1.4710 )   
+## 97%   (-0.0276,  1.5170 )   
+## 98%   (-0.1197,  1.5717 )   
+## 99%   (-0.2204,  1.7110 )  
+## Calculations and Intervals on Original Scale
+## Some BCa intervals may be unstable
+\end{verbatim}
+
+For the normal-based 95\% confidence interval:
+
+\begin{itemize}
+\item
+  High OP group: {[}1.313, 2.546{]}, range = 1.233
+\item
+  Low OP group: {[}0.711, 1.613{]}, range = 0.902
+\end{itemize}
+
+For the Poisson-based 95\% confidence interval:
+
+\begin{itemize}
+\item
+  High OP group: {[}1.566, 2.294{]}, range = 0.728
+\item
+  Low OP group: {[}0.915, 1.409{]}, range = 0.494
+\end{itemize}
+
+For our bootstrap-t 95\% confidence interval of the trimmed mean:
+
+\begin{itemize}
+\item
+  High OP group: {[}0.719, 1.824{]}, range = 1.105
+\item
+  Low OP group: {[}0.405, 0.826{]}, range = 0.421
+\end{itemize}
+
+For the high OP group, the normal-based method produces the widest
+interval (range = 1.233) while the Poisson-based interval produces the
+most narrow (0.728). Our boostrap-t interval for the trimmed mean is
+right in-between with a difference of 1.105.
+
+For our low OP group, again, the normal-based interval have the widest
+difference in its interval bounds (range = 0.902). Our Poisson-based
+interval is between our normal and bootstrap-t results (range = 0.494).
+Our bootstrap-t interval had the most narrow range 0.421.
+
+\section{V. Discussion}\label{v.-discussion}
+
+Though we were expecting that the highly engaged group would have the
+same or lower number of ED visits, the results generated in our analysis
+highlights the differences between our approaches. The normal
+distribution and bootstrap-t based intervals for the two OP groups
+overlap, hinting that some differences are in effect, while the Poisson
+intervals are clearly separat that suggests a higher ER visit rate for
+the high OP group. However, each method's suitability needs further
+evaluation.
+
+The normal distribution is not ideal for our skewed, discrete count
+data. Poisson, while attractive due to its suitability for count data,
+is also not a perfect fit as our sample does not meet all assumptions as
+our \(\hat{ \lambda } \neq \bar{x} \neq s^{2}\). At best Poisson would
+be an approximate fit that would heavily rely on larger and more
+reliable sampling.
+
+Thus, bootstrapping emerges as the most practical and flexible method.
+It does not rely on assumptions like our normal or Poisson distribution
+approaches, making it especially useful for estimating parameters for
+new or complex populations -- especially with today's available compute
+power. It should be noted that our estimation of a 20\% trimmed mean
+would naturally lead to a narrower interval. However, we are interested
+in knowing the central values of ER visits. Zero counts are commmon as
+there are multiple reasons why a patient may not decide to visit the ED.
+For extreme high counts, there are cases of patients with multiple
+complex conditions who are not indicative of the typical diabetes
+patient.
+
+Resampling through bootstrapping provides a robust evaluation tool for
+public health interventionalists looking to free their analysis from
+parametric constraints. Other data may not benefit some looking as
+regular as ours and bootstrapping would be the ideal tool to deploy in
+those scenarios. In conclusion, Bootstrapping offers a robust tool for
+public health researchers looking to be free of parametric constraints
+and improve estimation accuracy, particularly when data distributions
+are irregular.
+
+\newpage
+
+\section{Appendix 1: R Code}\label{appendix-1-r-code}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DocumentationTok{\#\#\#\#\# Library \#\#\#\#\#}
+\FunctionTok{library}\NormalTok{(tidyverse)}
+\FunctionTok{library}\NormalTok{(ggplot2)}
+\FunctionTok{library}\NormalTok{(boot)}
+\FunctionTok{library}\NormalTok{(kableExtra)}
+\FunctionTok{library}\NormalTok{(hrbrthemes)}
+\FunctionTok{library}\NormalTok{(viridis)}
+
+\DocumentationTok{\#\#\#\#\# Working Directory \#\#\#\#\#}
+\FunctionTok{setwd}\NormalTok{(}\StringTok{\textquotesingle{}/home/petepham/Documents/School/STAT 573/Final Project/data\textquotesingle{}}\NormalTok{)}
+
+\DocumentationTok{\#\#\#\#\#\# Functions \#\#\#\#\#}
+\CommentTok{\# icdf}
+\NormalTok{icdf }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, alpha)\{}
+    \CommentTok{\# x = data or vector}
+    \CommentTok{\# alpha = percentile of interest}
+
+    \CommentTok{\# sort \& define length}
+\NormalTok{    list.data }\OtherTok{=} \FunctionTok{sort}\NormalTok{(x)}
+\NormalTok{    n }\OtherTok{=} \FunctionTok{length}\NormalTok{(x)}
+    \CommentTok{\# Apply logic for alpha \textless{} 0.50 \&\& alpha \textgreater{}= 50}
+\NormalTok{    i }\OtherTok{=} \FunctionTok{ifelse}\NormalTok{(}
+\NormalTok{        alpha }\SpecialCharTok{\textless{}} \FloatTok{0.50}\NormalTok{,}
+        \FunctionTok{floor}\NormalTok{(alpha }\SpecialCharTok{*}\NormalTok{ (n}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)),}
+\NormalTok{        (n}\SpecialCharTok{+}\DecValTok{1}\NormalTok{) }\SpecialCharTok{{-}} \FunctionTok{floor}\NormalTok{((}\DecValTok{1}\SpecialCharTok{{-}}\NormalTok{alpha)}\SpecialCharTok{*}\NormalTok{(n}\SpecialCharTok{+}\DecValTok{1}\NormalTok{))}
+\NormalTok{    )}
+    \CommentTok{\# Return results}
+    \FunctionTok{return}\NormalTok{(list.data[i])}
+\NormalTok{\}}
+
+\CommentTok{\# Bootstrap{-}T Functions}
+\NormalTok{tmean }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, }\AttributeTok{gama =} \FloatTok{0.2}\NormalTok{) \{}
+\NormalTok{    x }\OtherTok{=} \FunctionTok{sort}\NormalTok{(x)}
+\NormalTok{    n }\OtherTok{=} \FunctionTok{length}\NormalTok{(x)}
+\NormalTok{    a }\OtherTok{=} \FunctionTok{mean}\NormalTok{(x, }\AttributeTok{trim =}\NormalTok{ gama)}
+\NormalTok{    den }\OtherTok{=}\NormalTok{ n }\SpecialCharTok{*}\NormalTok{ (}\DecValTok{1{-}2}\SpecialCharTok{*}\NormalTok{gama)}\SpecialCharTok{\^{}}\DecValTok{2}
+\NormalTok{    t }\OtherTok{=} \FunctionTok{floor}\NormalTok{(n}\SpecialCharTok{*}\NormalTok{gama)}
+\NormalTok{    l }\OtherTok{=}\NormalTok{ x[t}\SpecialCharTok{+}\DecValTok{1}\NormalTok{]}
+\NormalTok{    u }\OtherTok{=}\NormalTok{ x[n}\SpecialCharTok{{-}}\NormalTok{t]}
+\NormalTok{    wv }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\FunctionTok{rep}\NormalTok{(l, }\AttributeTok{times=}\NormalTok{t),x[(t}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{:}\NormalTok{(n}\DecValTok{{-}1}\NormalTok{)], }\FunctionTok{rep}\NormalTok{(u, }\AttributeTok{times=}\NormalTok{t))}
+\NormalTok{    b }\OtherTok{=}\NormalTok{ (a }\SpecialCharTok{{-}}\NormalTok{ tmuhat)}\SpecialCharTok{/}\FunctionTok{sqrt}\NormalTok{(}\FunctionTok{var}\NormalTok{(wv)}\SpecialCharTok{/}\NormalTok{den)}
+\NormalTok{\}}
+
+\NormalTok{boot.t.mean }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, B) \{}
+\NormalTok{    n }\OtherTok{=} \FunctionTok{length}\NormalTok{(x)}
+\NormalTok{    boot.t }\OtherTok{=} \FunctionTok{rep}\NormalTok{(}\DecValTok{0}\NormalTok{, B)}
+
+    \ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\NormalTok{B) \{}
+\NormalTok{        xstar }\OtherTok{=} \FunctionTok{sample}\NormalTok{(x, n, }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+\NormalTok{        boot.t[i] }\OtherTok{=} \FunctionTok{tmean}\NormalTok{(xstar)}
+\NormalTok{    \}}
+
+    \FunctionTok{return}\NormalTok{(boot.t)}
+\NormalTok{\}}
+
+\DocumentationTok{\#\#\#\#\# Data Import \& Transformation \#\#\#\#\#}
+\NormalTok{data }\OtherTok{=} \FunctionTok{read.csv}\NormalTok{(}\StringTok{\textquotesingle{}quality.csv\textquotesingle{}}\NormalTok{)}
+
+\NormalTok{df }\OtherTok{=}\NormalTok{ data }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{select}\NormalTok{(}
+\NormalTok{        MemberID,}
+\NormalTok{        OfficeVisits,}
+\NormalTok{        ERVisits,}
+\NormalTok{        MedicalClaims,}
+\NormalTok{        InpatientDays}
+\NormalTok{    ) }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{mutate}\NormalTok{(}
+        \AttributeTok{pcp.group =} \FunctionTok{ifelse}\NormalTok{(}
+\NormalTok{            OfficeVisits }\SpecialCharTok{\textgreater{}=} \DecValTok{14}\NormalTok{,}
+            \StringTok{\textquotesingle{}high.engagement\textquotesingle{}}\NormalTok{,}
+            \StringTok{\textquotesingle{}low.engagement\textquotesingle{}}
+\NormalTok{        )}
+\NormalTok{    )}
+
+\NormalTok{df.group }\OtherTok{=}\NormalTok{ df }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{group\_by}\NormalTok{(pcp.group) }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{summarise}\NormalTok{(}
+        \AttributeTok{patient\_count =} \FunctionTok{n}\NormalTok{(),}
+        \AttributeTok{total\_er =} \FunctionTok{sum}\NormalTok{(ERVisits),}
+        \AttributeTok{mean\_er =} \FunctionTok{mean}\NormalTok{(ERVisits),}
+        \AttributeTok{var\_er =} \FunctionTok{var}\NormalTok{(ERVisits)}
+\NormalTok{    ) }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{mutate}\NormalTok{(}
+        \AttributeTok{pcp.group =} \FunctionTok{recode}\NormalTok{(}
+\NormalTok{            pcp.group,}
+            \StringTok{"high.engagement"} \OtherTok{=} \StringTok{"High OP Engagement"}\NormalTok{,}
+            \StringTok{"low.engagement"} \OtherTok{=} \StringTok{"Low OP Engagmeent"}
+\NormalTok{        ),}
+        \AttributeTok{total\_er =} \FunctionTok{round}\NormalTok{(total\_er, }\DecValTok{3}\NormalTok{),}
+        \AttributeTok{mean\_er =} \FunctionTok{round}\NormalTok{(mean\_er, }\DecValTok{3}\NormalTok{),}
+        \AttributeTok{var\_er =} \FunctionTok{round}\NormalTok{(var\_er, }\DecValTok{3}\NormalTok{)}
+\NormalTok{    )}
+
+\NormalTok{high }\OtherTok{=} \FunctionTok{sort}\NormalTok{(df}\SpecialCharTok{$}\NormalTok{ERVisits[df}\SpecialCharTok{$}\NormalTok{pcp.group }\SpecialCharTok{==} \StringTok{\textquotesingle{}high.engagement\textquotesingle{}}\NormalTok{])}
+\NormalTok{low }\OtherTok{=} \FunctionTok{sort}\NormalTok{(df}\SpecialCharTok{$}\NormalTok{ERVisits[df}\SpecialCharTok{$}\NormalTok{pcp.group }\SpecialCharTok{==} \StringTok{\textquotesingle{}low.engagement\textquotesingle{}}\NormalTok{])}
+
+\FunctionTok{colnames}\NormalTok{(df.group) }\OtherTok{=} \FunctionTok{c}\NormalTok{(}
+    \StringTok{\textquotesingle{}Engagement Group\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}\# of Patients\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}\# ER Visits\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}Mean ER Visits\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}Variance ER Visits\textquotesingle{}}
+\NormalTok{    ) }
+
+\FunctionTok{kable}\NormalTok{(df.group, }\AttributeTok{align =} \StringTok{"lcccc"}\NormalTok{)}
+
+\NormalTok{p1 }\OtherTok{=} \FunctionTok{hist}\NormalTok{(}
+\NormalTok{    low,}
+    \AttributeTok{main =} \StringTok{"ER Visits for Patients with Low Count of Outpatient Visits"}\NormalTok{,}
+    \AttributeTok{xlab =} \StringTok{"Number of ER Visits"}
+\NormalTok{    )}
+\NormalTok{p2 }\OtherTok{=} \FunctionTok{hist}\NormalTok{(}
+\NormalTok{    high,}
+    \AttributeTok{main =} \StringTok{"ER Visits for Patients with High Count of Outpatient Visits"}\NormalTok{,}
+    \AttributeTok{xlab =} \StringTok{"Number of ER Visits"}\NormalTok{)}
+
+
+\CommentTok{\# Non{-}trimmed mean}
+\NormalTok{tmuhat.high.nt }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high)}
+\NormalTok{var.t.high.nt }\OtherTok{=} \FunctionTok{var}\NormalTok{(high)}
+\NormalTok{den.high.nt }\OtherTok{=} \FunctionTok{length}\NormalTok{(high)}
+\CommentTok{\# reframe}
+\NormalTok{n.high }\OtherTok{=} \FunctionTok{length}\NormalTok{(high)}
+\NormalTok{mean.high }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high)}
+\NormalTok{var.high }\OtherTok{=} \FunctionTok{var}\NormalTok{(high)}
+
+\NormalTok{n.low }\OtherTok{=} \FunctionTok{length}\NormalTok{(low)}
+\NormalTok{mean.low }\OtherTok{=} \FunctionTok{mean}\NormalTok{(low)}
+\NormalTok{var.low }\OtherTok{=} \FunctionTok{var}\NormalTok{(low)}
+
+\DocumentationTok{\#\#\#\#\#\# Normal Results \#\#\#\#\#}
+\NormalTok{norm.low.lower }\OtherTok{=}\NormalTok{ mean.low }\SpecialCharTok{{-}}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(var.low}\SpecialCharTok{/}\NormalTok{(n.low}\DecValTok{{-}1}\NormalTok{))))}
+\NormalTok{norm.low.upper }\OtherTok{=}\NormalTok{ mean.low }\SpecialCharTok{+}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(var.low}\SpecialCharTok{/}\NormalTok{(n.low}\DecValTok{{-}1}\NormalTok{))))}
+
+\NormalTok{norm.high.lower }\OtherTok{=}\NormalTok{ mean.high }\SpecialCharTok{{-}}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(var.high}\SpecialCharTok{/}\NormalTok{(n.high}\DecValTok{{-}1}\NormalTok{))))}
+\NormalTok{norm.high.upper }\OtherTok{=}\NormalTok{ mean.high }\SpecialCharTok{+}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(var.high}\SpecialCharTok{/}\NormalTok{(n.high}\DecValTok{{-}1}\NormalTok{))))}
+
+\DocumentationTok{\#\#\#\#\# Poisson Results \#\#\#\#\#}
+\NormalTok{pois.high.lower }\OtherTok{=}\NormalTok{ mean.high }\SpecialCharTok{{-}}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(mean.high}\SpecialCharTok{/}\NormalTok{(n.high}\DecValTok{{-}1}\NormalTok{))))}
+\NormalTok{pois.high.upper }\OtherTok{=}\NormalTok{ mean.high }\SpecialCharTok{+}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(mean.high}\SpecialCharTok{/}\NormalTok{(n.high}\DecValTok{{-}1}\NormalTok{))))}
+
+\NormalTok{pois.low.lower }\OtherTok{=}\NormalTok{ mean.low }\SpecialCharTok{{-}}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(mean.low}\SpecialCharTok{/}\NormalTok{(n.low}\DecValTok{{-}1}\NormalTok{))))}
+\NormalTok{pois.low.upper }\OtherTok{=}\NormalTok{ mean.low }\SpecialCharTok{+}\NormalTok{ (}\FloatTok{1.96}\SpecialCharTok{*}\NormalTok{(}\FunctionTok{sqrt}\NormalTok{(mean.low}\SpecialCharTok{/}\NormalTok{(n.low}\DecValTok{{-}1}\NormalTok{))))}
+
+
+\DocumentationTok{\#\#\#\#\# BootStrap Results Untrimmed \#\#\#\#\#}
+\CommentTok{\# high}
+\NormalTok{t.star.high }\OtherTok{=} \FunctionTok{rep}\NormalTok{(}\ConstantTok{NA}\NormalTok{, }\DecValTok{2000}\NormalTok{)}
+\ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\FunctionTok{length}\NormalTok{(t.star.high)) \{}
+\NormalTok{    sample }\OtherTok{=} \FunctionTok{sample}\NormalTok{(high, }\FunctionTok{length}\NormalTok{(high), }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+
+\NormalTok{    t.star.high[i] }\OtherTok{=} \FunctionTok{mean}\NormalTok{(sample)}
+\NormalTok{\}}
+
+\NormalTok{bs.mean.high }\OtherTok{=} \FunctionTok{mean}\NormalTok{(t.star.high)}
+\NormalTok{bs.sdev.high }\OtherTok{=} \FunctionTok{sqrt}\NormalTok{(}\FunctionTok{var}\NormalTok{(t.star.high))}
+
+\NormalTok{bs.high.lower }\OtherTok{=} \FunctionTok{floor}\NormalTok{((}\FunctionTok{length}\NormalTok{(t.star.high)}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{*}\NormalTok{(}\FloatTok{0.025}\NormalTok{))}
+\NormalTok{bs.high.upper }\OtherTok{=}\NormalTok{ (}\FunctionTok{length}\NormalTok{(t.star.high)}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{{-}}\FunctionTok{floor}\NormalTok{((}\FunctionTok{length}\NormalTok{(t.star.high)}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{*}\FloatTok{0.025}\NormalTok{)}
+
+\NormalTok{t.star.high.sorted }\OtherTok{=} \FunctionTok{sort}\NormalTok{(t.star.high)}
+\NormalTok{t.star.high.sorted[bs.high.lower]}
+\NormalTok{t.star.high.sorted[bs.high.upper]}
+
+\NormalTok{bs.high.ci.lower }\OtherTok{=} \DecValTok{2}\SpecialCharTok{*}\FunctionTok{mean}\NormalTok{(high) }\SpecialCharTok{{-}}\NormalTok{ t.star.high.sorted[bs.high.upper]}
+\NormalTok{bs.high.ci.upper }\OtherTok{=} \DecValTok{2}\SpecialCharTok{*}\FunctionTok{mean}\NormalTok{(high) }\SpecialCharTok{{-}}\NormalTok{ t.star.high.sorted[bs.high.lower]}
+
+\CommentTok{\# low}
+\NormalTok{t.star.low }\OtherTok{=} \FunctionTok{rep}\NormalTok{(}\ConstantTok{NA}\NormalTok{, }\DecValTok{2000}\NormalTok{)}
+\ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\FunctionTok{length}\NormalTok{(t.star.low)) \{}
+\NormalTok{    sample }\OtherTok{=} \FunctionTok{sample}\NormalTok{(low, }\FunctionTok{length}\NormalTok{(low), }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+
+\NormalTok{    t.star.low[i] }\OtherTok{=} \FunctionTok{mean}\NormalTok{(sample)}
+\NormalTok{\}}
+
+\NormalTok{bs.mean.low }\OtherTok{=} \FunctionTok{mean}\NormalTok{(t.star.low)}
+\NormalTok{bs.sdev.low }\OtherTok{=} \FunctionTok{sqrt}\NormalTok{(}\FunctionTok{var}\NormalTok{(t.star.low))}
+
+\NormalTok{bs.low.lower }\OtherTok{=} \FunctionTok{floor}\NormalTok{((}\FunctionTok{length}\NormalTok{(t.star.low)}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{*}\NormalTok{(}\FloatTok{0.025}\NormalTok{))}
+\NormalTok{bs.low.upper }\OtherTok{=}\NormalTok{ (}\FunctionTok{length}\NormalTok{(t.star.low)}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{{-}}\FunctionTok{floor}\NormalTok{((}\FunctionTok{length}\NormalTok{(t.star.low)}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{*}\FloatTok{0.025}\NormalTok{)}
+
+\NormalTok{t.star.low.sorted }\OtherTok{=} \FunctionTok{sort}\NormalTok{(t.star.low)}
+\NormalTok{t.star.low.sorted[bs.low.lower]}
+\NormalTok{t.star.low.sorted[bs.low.upper]}
+
+\NormalTok{bs.low.ci.lower }\OtherTok{=} \DecValTok{2}\SpecialCharTok{*}\FunctionTok{mean}\NormalTok{(low) }\SpecialCharTok{{-}}\NormalTok{ t.star.low.sorted[bs.low.upper]}
+\NormalTok{bs.low.ci.upper }\OtherTok{=} \DecValTok{2}\SpecialCharTok{*}\FunctionTok{mean}\NormalTok{(low) }\SpecialCharTok{{-}}\NormalTok{ t.star.low.sorted[bs.low.lower]}
+
+\DocumentationTok{\#\#\#\#\# BootStrap Results 20\% Trimmed \#\#\#\#\#}
+\CommentTok{\# high}
+\NormalTok{tmuhat.high }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high, }\AttributeTok{trim =} \FloatTok{0.2}\NormalTok{)}
+\NormalTok{floor.high }\OtherTok{=} \FunctionTok{floor}\NormalTok{(}\FunctionTok{length}\NormalTok{(high) }\SpecialCharTok{*} \FloatTok{0.2}\NormalTok{)}
+\NormalTok{var.t.high }\OtherTok{=} \FunctionTok{var}\NormalTok{(}
+    \FunctionTok{c}\NormalTok{(}
+        \FunctionTok{rep}\NormalTok{(high[floor.high}\SpecialCharTok{+}\DecValTok{1}\NormalTok{],floor.high),}
+\NormalTok{        high[(floor.high}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{:}\NormalTok{(}\FunctionTok{length}\NormalTok{(high)}\SpecialCharTok{{-}}\NormalTok{floor.high)],}
+        \FunctionTok{rep}\NormalTok{(high[}\FunctionTok{length}\NormalTok{(high)}\SpecialCharTok{{-}}\NormalTok{floor.high],floor.high)}
+\NormalTok{    )}
+\NormalTok{)}
+\NormalTok{den.high }\OtherTok{=} \FunctionTok{length}\NormalTok{(high)}\SpecialCharTok{*}\NormalTok{(}\DecValTok{1{-}2}\SpecialCharTok{*}\FloatTok{0.2}\NormalTok{)}\SpecialCharTok{\^{}}\DecValTok{2}
+\FunctionTok{sqrt}\NormalTok{(var.t.high}\SpecialCharTok{/}\NormalTok{den.high)}
+
+\NormalTok{tmuhat }\OtherTok{=}\NormalTok{ tmuhat.high}
+\NormalTok{out.high }\OtherTok{=} \FunctionTok{boot.t.mean}\NormalTok{(high, }\DecValTok{1000}\NormalTok{)}
+
+\NormalTok{bt.high.upper }\OtherTok{=}\NormalTok{ tmuhat.high }\SpecialCharTok{{-}} \FunctionTok{icdf}\NormalTok{(out.high, }\FloatTok{0.025}\NormalTok{)}\SpecialCharTok{*}\FunctionTok{sqrt}\NormalTok{(var.t.high}\SpecialCharTok{/}\NormalTok{den.high) }\CommentTok{\# upper}
+\NormalTok{bt.high.lower }\OtherTok{=}\NormalTok{ tmuhat.high }\SpecialCharTok{{-}} \FunctionTok{icdf}\NormalTok{(out.high, }\FloatTok{0.975}\NormalTok{)}\SpecialCharTok{*}\FunctionTok{sqrt}\NormalTok{(var.t.high}\SpecialCharTok{/}\NormalTok{den.high) }\CommentTok{\# lower}
+
+\CommentTok{\# low}
+\NormalTok{tmuhat.low }\OtherTok{=} \FunctionTok{mean}\NormalTok{(low, }\AttributeTok{trim =} \FloatTok{0.2}\NormalTok{)}
+\NormalTok{floor.low }\OtherTok{=} \FunctionTok{floor}\NormalTok{(}\FunctionTok{length}\NormalTok{(low) }\SpecialCharTok{*} \FloatTok{0.2}\NormalTok{)}
+\NormalTok{floor.low}
+\NormalTok{var.t.low }\OtherTok{=} \FunctionTok{var}\NormalTok{(}
+    \FunctionTok{c}\NormalTok{(}
+        \FunctionTok{rep}\NormalTok{(low[floor.low}\SpecialCharTok{+}\DecValTok{1}\NormalTok{],floor.low),}
+\NormalTok{        low[(floor.low}\SpecialCharTok{+}\DecValTok{1}\NormalTok{)}\SpecialCharTok{:}\NormalTok{(}\FunctionTok{length}\NormalTok{(low)}\SpecialCharTok{{-}}\NormalTok{floor.low)],}
+        \FunctionTok{rep}\NormalTok{(low[}\FunctionTok{length}\NormalTok{(low)}\SpecialCharTok{{-}}\NormalTok{floor.low],floor.low)}
+\NormalTok{    )}
+\NormalTok{)}
+\NormalTok{den.low }\OtherTok{=} \FunctionTok{length}\NormalTok{(high)}\SpecialCharTok{*}\NormalTok{(}\DecValTok{1{-}2}\SpecialCharTok{*}\FloatTok{0.2}\NormalTok{)}\SpecialCharTok{\^{}}\DecValTok{2}
+\FunctionTok{sqrt}\NormalTok{(var.t.low}\SpecialCharTok{/}\NormalTok{den.low)}
+
+\NormalTok{tmuhat }\OtherTok{=}\NormalTok{ tmuhat.low}
+\NormalTok{out.low }\OtherTok{=} \FunctionTok{boot.t.mean}\NormalTok{(low, }\DecValTok{1000}\NormalTok{)}
+
+\NormalTok{bt.low.upper }\OtherTok{=}\NormalTok{ tmuhat.low }\SpecialCharTok{{-}} \FunctionTok{icdf}\NormalTok{(out.low, }\FloatTok{0.025}\NormalTok{)}\SpecialCharTok{*}\FunctionTok{sqrt}\NormalTok{(var.t.low}\SpecialCharTok{/}\NormalTok{den.low) }\CommentTok{\# upper}
+\NormalTok{bt.low.lower }\OtherTok{=}\NormalTok{ tmuhat.low }\SpecialCharTok{{-}} \FunctionTok{icdf}\NormalTok{(out.low, }\FloatTok{0.975}\NormalTok{)}\SpecialCharTok{*}\FunctionTok{sqrt}\NormalTok{(var.t.low}\SpecialCharTok{/}\NormalTok{den.low) }\CommentTok{\# lower}
+
+
+\DocumentationTok{\#\#\#\#\# Tabling \#\#\#\#\#}
+\NormalTok{method }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\StringTok{"Normal"}\NormalTok{,}\StringTok{"Normal"}\NormalTok{,}\StringTok{"Poisson"}\NormalTok{,}\StringTok{"Poisson"}\NormalTok{,}\StringTok{"Bootstrap{-}t"}\NormalTok{, }\StringTok{"Bootstrap{-}t"}\NormalTok{,}\StringTok{"Bootstrap{-}t, 20\% Trimmed Mean"}\NormalTok{,}\StringTok{"Bootstrap{-}t, 20\% Trimmed Mean"}\NormalTok{)}
+\NormalTok{group }\OtherTok{=} \FunctionTok{rep}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\StringTok{"High OP Visits"}\NormalTok{, }\StringTok{"Low OP Visits"}\NormalTok{), }\DecValTok{4}\NormalTok{)}
+\NormalTok{mean }\OtherTok{=} \FunctionTok{round}\NormalTok{(}\FunctionTok{c}\NormalTok{(}
+\NormalTok{    mean.high, mean.low,}
+\NormalTok{    mean.high, mean.low,}
+\NormalTok{    mean.high, mean.low,}
+\NormalTok{    tmuhat.high, tmuhat.low}
+\NormalTok{    ),}\DecValTok{3}\NormalTok{)}
+\NormalTok{lower }\OtherTok{=} \FunctionTok{round}\NormalTok{(}\FunctionTok{c}\NormalTok{(}
+\NormalTok{    norm.high.lower, norm.low.lower,}
+\NormalTok{    pois.high.lower, pois.low.lower,}
+\NormalTok{    bs.high.ci.lower, bs.low.ci.lower,}
+\NormalTok{    bt.high.lower, bt.low.lower}
+\NormalTok{    ),}\DecValTok{3}\NormalTok{)}
+\NormalTok{upper }\OtherTok{=} \FunctionTok{round}\NormalTok{(}\FunctionTok{c}\NormalTok{(}
+\NormalTok{    norm.high.upper, norm.low.upper,}
+\NormalTok{    pois.high.upper, pois.low.upper,}
+\NormalTok{    bs.high.ci.upper, bs.low.ci.upper,}
+\NormalTok{    bt.high.upper, bt.low.upper}
+\NormalTok{    ),}\DecValTok{3}\NormalTok{)}
+
+\NormalTok{ci }\OtherTok{=} \FunctionTok{paste0}\NormalTok{(}
+    \StringTok{"["}\NormalTok{,}
+\NormalTok{    lower,}
+    \StringTok{", "}\NormalTok{,}
+\NormalTok{    upper,}
+    \StringTok{"]"}
+\NormalTok{)}
+\NormalTok{df.results }\OtherTok{=} \FunctionTok{data.frame}\NormalTok{(method, group, mean, ci, lower, upper) }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{mutate}\NormalTok{(}
+        \AttributeTok{mean =} \FunctionTok{round}\NormalTok{(mean, }\DecValTok{3}\NormalTok{),}
+        \AttributeTok{lower =} \FunctionTok{round}\NormalTok{(lower, }\DecValTok{3}\NormalTok{),}
+        \AttributeTok{upper =} \FunctionTok{round}\NormalTok{(upper, }\DecValTok{3}\NormalTok{),}
+        \AttributeTok{range =}\NormalTok{ upper }\SpecialCharTok{{-}}\NormalTok{ lower}
+\NormalTok{    ) }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{select}\NormalTok{(}
+\NormalTok{        method,}
+\NormalTok{        group,}
+\NormalTok{        mean,}
+\NormalTok{        ci,}
+\NormalTok{        range}
+\NormalTok{    )}
+
+\FunctionTok{colnames}\NormalTok{(df.results) }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\StringTok{"Method"}\NormalTok{, }\StringTok{"Group"}\NormalTok{, }\StringTok{"Sample Mean"}\NormalTok{, }\StringTok{"95\% CI"}\NormalTok{,}\StringTok{"Interval Range"}\NormalTok{)}
+
+\NormalTok{df.results2 }\OtherTok{=}\NormalTok{ df.results }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{arrange}\NormalTok{(group)}
+
+\FunctionTok{kable}\NormalTok{(df.results2, }\AttributeTok{align =}\StringTok{"lccccc"}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+    \FunctionTok{row\_spec}\NormalTok{(}\DecValTok{4}\NormalTok{, }\AttributeTok{hline\_after =} \ConstantTok{TRUE}\NormalTok{)}
+
+\DocumentationTok{\#\#\#\#\# p{-}values \#\#\#\#\#}
+
+\CommentTok{\# normal/t{-}tests}
+\FunctionTok{t.test}\NormalTok{(high, low, }\AttributeTok{var.equal =} \ConstantTok{FALSE}\NormalTok{)}
+
+\CommentTok{\# poisson}
+\FunctionTok{poisson.test}\NormalTok{(}
+    \FunctionTok{c}\NormalTok{(}\FunctionTok{sum}\NormalTok{(high }\SpecialCharTok{\textgreater{}} \DecValTok{0}\NormalTok{), }\FunctionTok{sum}\NormalTok{(high }\SpecialCharTok{==} \DecValTok{0}\NormalTok{)),}
+    \FunctionTok{c}\NormalTok{(}\FunctionTok{sum}\NormalTok{(low }\SpecialCharTok{\textgreater{}} \DecValTok{0}\NormalTok{), }\FunctionTok{sum}\NormalTok{(low }\SpecialCharTok{==} \DecValTok{0}\NormalTok{)),}
+    \AttributeTok{alternative =} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}two.sided\textquotesingle{}}\NormalTok{)}
+\NormalTok{)}
+
+\CommentTok{\# bootstrap t}
+\NormalTok{t.stat }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high)}\SpecialCharTok{{-}}\FunctionTok{mean}\NormalTok{(low)}
+\NormalTok{se.t }\OtherTok{=} \FunctionTok{sqrt}\NormalTok{(}
+\NormalTok{    (}\FunctionTok{var}\NormalTok{(high)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(high))}\SpecialCharTok{+}
+\NormalTok{    (}\FunctionTok{var}\NormalTok{(low)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(low))}
+\NormalTok{)}
+\NormalTok{to.t }\OtherTok{=}\NormalTok{ (t.stat }\SpecialCharTok{{-}} \DecValTok{0}\NormalTok{)}\SpecialCharTok{/}\NormalTok{se.t}
+\FunctionTok{c}\NormalTok{(t.stat, se.t, to.t)}
+
+\NormalTok{bootstrap.t }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, y, B) \{}
+\NormalTok{    df.outputs }\OtherTok{=} \FunctionTok{data.frame}\NormalTok{(}\FunctionTok{matrix}\NormalTok{(}\AttributeTok{ncol =} \DecValTok{2}\NormalTok{, }\AttributeTok{nrow =}\NormalTok{ B))}
+    \FunctionTok{names}\NormalTok{(df.outputs) }\OtherTok{=} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}t.stars\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}to.tstars\textquotesingle{}}\NormalTok{)}
+
+    \CommentTok{\# bootstrap}
+    \ControlFlowTok{for}\NormalTok{(i }\ControlFlowTok{in} \DecValTok{1}\SpecialCharTok{:}\NormalTok{B) \{}
+\NormalTok{        sample1 }\OtherTok{=} \FunctionTok{sample}\NormalTok{(x, }\FunctionTok{length}\NormalTok{(x), }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+\NormalTok{        sample2 }\OtherTok{=} \FunctionTok{sample}\NormalTok{(y, }\FunctionTok{length}\NormalTok{(y), }\AttributeTok{replace =} \ConstantTok{TRUE}\NormalTok{)}
+
+        \CommentTok{\# find to(t*)}
+\NormalTok{        t.star }\OtherTok{=} \FunctionTok{mean}\NormalTok{(sample1) }\SpecialCharTok{{-}} \FunctionTok{mean}\NormalTok{(sample2)}
+\NormalTok{        se.tstar }\OtherTok{=} \FunctionTok{sqrt}\NormalTok{(}
+\NormalTok{            (}\FunctionTok{var}\NormalTok{(sample1)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(sample1)) }\SpecialCharTok{+} 
+\NormalTok{            (}\FunctionTok{var}\NormalTok{(sample2)}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(sample2))}
+\NormalTok{        )}
+\NormalTok{        to.tstar }\OtherTok{=}\NormalTok{ (t.star }\SpecialCharTok{{-}}\NormalTok{ t.stat)}\SpecialCharTok{/}\NormalTok{se.tstar}
+
+        \CommentTok{\# store}
+\NormalTok{        df.outputs}\SpecialCharTok{$}\NormalTok{t.stars[i] }\OtherTok{=}\NormalTok{ t.star}
+\NormalTok{        df.outputs}\SpecialCharTok{$}\NormalTok{to.tstars[i] }\OtherTok{=}\NormalTok{ to.tstar}
+\NormalTok{    \}}
+
+    \CommentTok{\# /Shoiw Results}
+    \FunctionTok{return}\NormalTok{(df.outputs)}
+\NormalTok{\}}
+
+\NormalTok{output }\OtherTok{=} \FunctionTok{bootstrap.t}\NormalTok{(high, low, }\DecValTok{2000}\NormalTok{)}
+\FunctionTok{sum}\NormalTok{(output}\SpecialCharTok{$}\NormalTok{to.tstars }\SpecialCharTok{\textgreater{}}\NormalTok{ to.t)}
+\NormalTok{out.tail }\OtherTok{=} \FunctionTok{sum}\NormalTok{(output}\SpecialCharTok{$}\NormalTok{to.tstars }\SpecialCharTok{\textgreater{}}\NormalTok{ to.t)}
+\NormalTok{out.pval }\OtherTok{=}\NormalTok{ out.tail}\SpecialCharTok{/}\FunctionTok{length}\NormalTok{(output}\SpecialCharTok{$}\NormalTok{to.tstars)}
+\FunctionTok{c}\NormalTok{(out.tail, out.pval)}
+
+\CommentTok{\# library boot}
+\FunctionTok{library}\NormalTok{(boot)}
+
+\NormalTok{s }\OtherTok{=} \FunctionTok{mean}\NormalTok{(high) }\SpecialCharTok{{-}} \FunctionTok{mean}\NormalTok{(low)}
+
+\NormalTok{scores }\OtherTok{=} \FunctionTok{c}\NormalTok{(high, low)}
+\NormalTok{group }\OtherTok{=} \FunctionTok{c}\NormalTok{(}
+    \FunctionTok{rep}\NormalTok{(}\StringTok{\textquotesingle{}high\textquotesingle{}}\NormalTok{,}\DecValTok{57}\NormalTok{),}
+    \FunctionTok{rep}\NormalTok{(}\StringTok{\textquotesingle{}low\textquotesingle{}}\NormalTok{,}\DecValTok{74}\NormalTok{)}
+\NormalTok{)}
+
+\NormalTok{df }\OtherTok{=} \FunctionTok{data.frame}\NormalTok{(group, scores)}
+\NormalTok{df}
+\FunctionTok{colnames}\NormalTok{(df)}
+
+\NormalTok{mean.diff }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, i) \{}
+    \FunctionTok{return}\NormalTok{(}
+        \FunctionTok{mean}\NormalTok{(x}\SpecialCharTok{$}\NormalTok{scores[group }\SpecialCharTok{==} \StringTok{\textquotesingle{}high\textquotesingle{}}\NormalTok{][i], }\AttributeTok{na.rm =} \ConstantTok{TRUE}\NormalTok{) }\SpecialCharTok{{-}} \FunctionTok{mean}\NormalTok{(x}\SpecialCharTok{$}\NormalTok{scores[group }\SpecialCharTok{==} \StringTok{\textquotesingle{}low\textquotesingle{}}\NormalTok{][i], }\AttributeTok{na.rm =} \ConstantTok{TRUE}\NormalTok{)}
+\NormalTok{    )}
+\NormalTok{\}}
+\NormalTok{just.mean }\OtherTok{=} \ControlFlowTok{function}\NormalTok{(x, i) \{}
+    \FunctionTok{return}\NormalTok{(}\FunctionTok{mean}\NormalTok{(x[i]))}
+\NormalTok{\}}
+
+\NormalTok{boot.high }\OtherTok{=} \FunctionTok{boot}\NormalTok{(high, just.mean, }\AttributeTok{R =} \DecValTok{1000}\NormalTok{)}
+\FunctionTok{boot.ci}\NormalTok{(}
+\NormalTok{    boot.high,}
+    \FunctionTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{, .}\DecValTok{96}\NormalTok{, .}\DecValTok{97}\NormalTok{, .}\DecValTok{98}\NormalTok{, .}\DecValTok{99}\NormalTok{),}
+    \StringTok{\textquotesingle{}bca\textquotesingle{}}
+\NormalTok{)}
+\NormalTok{boot.low }\OtherTok{=} \FunctionTok{boot}\NormalTok{(low, just.mean, }\AttributeTok{R=}\DecValTok{1000}\NormalTok{)}
+\FunctionTok{boot.ci}\NormalTok{(}
+\NormalTok{    boot.low,}
+    \FunctionTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{, .}\DecValTok{96}\NormalTok{, .}\DecValTok{97}\NormalTok{, .}\DecValTok{98}\NormalTok{, .}\DecValTok{99}\NormalTok{),}
+    \StringTok{\textquotesingle{}bca\textquotesingle{}}
+\NormalTok{)}
+\NormalTok{boot.out }\OtherTok{=} \FunctionTok{boot}\NormalTok{(df, mean.diff, }\AttributeTok{R=}\DecValTok{1000}\NormalTok{)}
+
+\FunctionTok{boot.ci}\NormalTok{(}
+\NormalTok{    boot.out,}
+    \FunctionTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{, .}\DecValTok{96}\NormalTok{, .}\DecValTok{97}\NormalTok{, .}\DecValTok{98}\NormalTok{, .}\DecValTok{99}\NormalTok{),}
+    \StringTok{\textquotesingle{}bca\textquotesingle{}}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\newpage
+
+\section*{Appendix 2: References}\label{appendix-2-references}
+\addcontentsline{toc}{section}{Appendix 2: References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-3}
+Bannuru, Emily D. Parker; Janice Lin; Troy Mahoney; Nwanneamaka Ume;
+Grace Yang; Robert A. Gabbay; Nuha A. ElSayed; Raveendhara R. 2023.
+\emph{Economic Costs of Diabetes in the u.s. In 2022}. American Diabetes
+Association.
+\url{https://diabetesjournals.org/care/article/47/1/26/153797/Economic-Costs-of-Diabetes-in-the-U-S-in-2022}.
+
+\bibitem[\citeproctext]{ref-7}
+Donald K Cherry, Elizabeth A Rechtsteiner, David A Woodwell. 2007.
+\emph{Optimization of Multigrain Premix for High Protein and Dietary
+Fibre Biscuits Using Response Surface Methodology (RSM)}. National
+Institute of Health. \url{https://pubmed.ncbi.nlm.nih.gov/17703793/}.
+
+\bibitem[\citeproctext]{ref-1}
+\emph{IDF Diabetes Atlas, 10th Edition}. 2021. International Diabetes
+Federation.
+\url{https://diabetesatlas.org/idfawp/resource-files/2021/07/IDF_Atlas_10th_Edition_2021.pdf}.
+
+\bibitem[\citeproctext]{ref-4}
+Jingyao Hong, Natalie Daya, Aditya Surapaneni. 2021. \emph{Retinopathy
+and Risk of Kidney Disease in Persons with Diabetes}. National Institute
+of Health. \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC8515075/}.
+
+\bibitem[\citeproctext]{ref-2}
+\emph{National Diabetes Statistics Report}. 2024. Centers for Disease
+Control.
+\url{https://www.cdc.gov/diabetes/php/data-research/?CDC_AAref_Val=https://www.cdc.gov/diabetes/data/statistics-report/index.html}.
+
+\bibitem[\citeproctext]{ref-6}
+\emph{Racial and Ethnic Disparities in Diabetes Prevalence,
+Self-Management, and Health Outcomes Among Medicare Beneficiaries}.
+2017. Centers for Medicare \& Medicaid Services.
+\url{https://www.cms.gov/About-CMS/Agency-Information/OMH/Downloads/March-2017-Data-Highlight.pdf\#:~:text=Diabetes\%20prevalence\%20was\%20higher\%20among\%20Black\%20(30.0,beneficiaries\%20who\%20were\%20male\%20(22.3\%20percent\%20vs.}
+
+\bibitem[\citeproctext]{ref-5}
+Stephanie M Gruss, Edward Gregg, Kunthea Nhim. 2019. \emph{Public Health
+Approaches to Type 2 Diabetes Prevention: The US National Diabetes
+Prevention Program and Beyond}. National Institute of Health.
+\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC6682852/}.
+
+\end{CSLReferences}
+
+\end{document}
